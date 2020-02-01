@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!-- Interaction 2: Project 1: Experiment 9: Image & Reveal-->
+<!--Rational: For this experiment, I wanted to use a Romantic Comedy gif (which I made at giphy.com) to reveal and juxtapose the expectations versus the reality of relationships. In the Craigslist ad, the women reflects (somewhat satirically) upon the positives of her relationship and how it evolved into reality.-->
+<html>
+<head>
+     <title>experiment 8: image & repetition</title>
+    <link rel="stylesheet" href="../css/project1.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto: 700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>     
+</head>
+<body>
+<div id="wrapper">
+
+    <div id="template" class="divrelative">
+    <img class="harry1" src="../images/exp9.gif">
+    <div class="divbackground9"></div>
+    <div><span class="reality" id="changingword">EXPECTATION </span> </div>
+    </div>
+
+</div>
+</body>
+
+<!-- javascript -->
+<script type="text/javascript">
+    (function(){
+      var words = [
+          'EXPECTATION',
+          'REALITY',
+          ], i = 0;
+      setInterval(function(){
+          $('#changingword').fadeOut(function(){
+              $(this).html(words[i=(i+1)%words.length]).fadeIn();
+          });
+      }, 2000);
+        
+  })();
+   </script>
+</html>

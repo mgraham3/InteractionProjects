@@ -1,0 +1,1698 @@
+/* Madie Graham - Interaction 2 - Project 1 */
+
+/* ----- global styles -----  */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*uncommentting this rule forces all divs to temp have a border*/
+/*div {border: red solid thin;}*/
+.divrelative{
+    position: relative;
+}
+#wrapper {
+    width: 350px;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* -----  project template  ----- */
+#template {
+    width: 350px;
+    height: 350px;
+    border: .5px solid grey;
+    position: absolute;
+    z-index: 1000;
+    /* vertical center */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+/* ----- Week 2 Styles: Type & Webfont Exp.1  ----- */
+.divbackground1{
+    background-color: rgb(255, 228, 0);
+    padding: 10px;
+}
+/* ----- Positive Relationship/Love components Special ID ----- */
+#compatible{
+    color: rgb(106, 0, 255);
+    letter-spacing: 1pt;
+    font-weight: 400;
+}
+#commit{
+    color: rgb(106, 0, 255);
+    letter-spacing: 1pt;
+    font-weight: 400;
+}
+#perfect{
+    color: rgb(106, 0, 255);
+    letter-spacing: 1pt;
+    font-weight: 400;
+}
+/* ----- Headline Styling & Positioning ----- */
+.exp1h1{
+    font-family: 'Vollkorn', serif;
+    font-size: 24pt;
+    font-weight: 700;
+    line-height: 18pt;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: px;
+    color: rgb(255, 0, 0);
+}
+.exp1h2{
+    font-family: 'Vollkorn', serif;
+    font-size: 20pt;
+    font-weight: 700;
+    line-height: 18pt;
+    width: auto;
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.exp1h3{
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    font-size: 16pt;
+    line-height: 14pt;
+    width: auto;
+    position: absolute;
+    top: 312px;
+    left: 244px;
+    text-align: ;
+    color: rgb(255, 0, 0);
+}
+/* ----- Img positioning IDs ----- */
+#img1{
+    height: 65px;
+    width: 27.3px;
+    position: absolute;
+    top: 174px;
+    left: 240px;
+    animation: beat .40s infinite alternate;
+}
+#img2{
+    height: 64px;
+    width: 29px;
+    position: absolute;
+    top: 110px;
+    left: 94px;
+    animation: beat .40s infinite alternate;
+}
+#img3{
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    top: 20px;
+    left: 66px;
+    animation: beat .20s infinite alternate;
+}
+#img4{
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    top: 306px;
+    left: 290px;
+    animation: beat .20s infinite alternate;
+}
+/* ----- Heartbeat: code from code pen by Fivera ----- */
+@keyframes beat{
+	to { transform: scale(1.16); }
+}
+
+
+/* ----- Week 2 Styles: Type & Webfont Exp.1_1  ----- */
+.divbackground1{
+    background-color: rgb(255, 228, 0);
+    padding: 10px;
+}
+/* ----- Positive Relationship/Love components Special ID ----- */
+#compatible{
+    color: rgb(106, 0, 255);
+    letter-spacing: 1pt;
+    font-weight: 400;
+}
+#commit{
+    color: rgb(106, 0, 255);
+    letter-spacing: 1pt;
+    font-weight: 400;
+}
+#perfect{
+    color: rgb(106, 0, 255);
+    letter-spacing: 1pt;
+    font-weight: 400;
+}
+/* ----- Headline Styling & Positioning ----- */
+.exp1h1{
+    font-family: 'Vollkorn', serif;
+    font-size: 24pt;
+    font-weight: 700;
+    line-height: 18pt;
+    width: auto;
+    position: absolute;
+    top: 20px;
+    left: px;
+    color: rgb(255, 0, 0);
+}
+.exp1h2_1{
+    font-family: 'Vollkorn', serif;
+    font-size: 20pt;
+    font-weight: 700;
+    line-height: 18pt;
+    width: auto;
+    position: absolute;
+    top: 150px;
+    left: 124px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.exp1h3{
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    font-size: 16pt;
+    line-height: 14pt;
+    width: auto;
+    position: absolute;
+    top: 312px;
+    left: 244px;
+    text-align: ;
+    color: rgb(255, 0, 0);
+}
+/* ----- Img positioning IDs ----- */
+#img1_1{
+    height: 32.5px;
+    width: 13.65px;
+    position: absolute;
+    top: 206px;
+    left: 176px;
+    animation: beat .40s infinite alternate;
+}
+#img2_1{
+    height: 32px;
+    width: 14.5px;
+    position: absolute;
+    top: 206.75px;
+    left: 156px;
+    animation: beat .40s infinite alternate;
+}
+#img3_1{
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    top: 20px;
+    left: 66px;
+    animation: beat .20s infinite alternate;
+}
+#img4_1{
+    height: 20px;
+    width: 10px;
+    position: absolute;
+    top: 306px;
+    left: 284px;
+    animation: beat .20s infinite alternate;
+}
+/* ----- Heartbeat: code from code pen by Fivera ----- */
+@keyframes beat{
+	to { transform: scale(1.16); }
+}
+
+/* ----- Week 2 Styles: Type & Legibility Exp.2  ----- */
+.divbackground2{
+    background-color: rgb(0, 0,0);
+}
+
+/*Type Stylign and Positioning*/
+.numbers{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 80pt;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.monogamy{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 20pt;
+    color: rgb(230, 228, 234);
+    letter-spacing: .5pt;
+    position: absolute;
+    top: 138px;
+    left: 28px;
+}
+.lawyer{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 12pt;
+    color: rgb(255, 0, 0);
+    line-height: 15pt;
+    letter-spacing: .5pt;
+    color: rgb(230, 228, 234);
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}
+.lsat{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 8pt;
+    color: rgb(255, 0, 0);
+    line-height: 9pt; 
+    letter-spacing: .5pt;
+    color: rgb(230, 228, 234);
+    position: absolute;
+    top: 300px;
+    left: 22px;
+}
+.he{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 6pt;
+    color: rgb(255, 0, 0);
+    line-height: 9pt; 
+    letter-spacing: .5pt;
+    color: rgb(230, 228, 234);
+    position: absolute;
+    top: 324px;
+    left: 260px;
+}
+.italic{
+    color: dimgray;
+    letter-spacing: .7;
+}
+.hrstyle1{
+    border: .5px dashed dimgray;
+    width: 152px;
+    position: absolute;
+    top: 330px;
+    left: 100px;
+}
+
+/* ----- Week 2 Styles: Type & Ascii Exp.3  ----- */
+.asciibackground{
+    background-color: black;
+}
+.heartshape{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 38pt; 
+    position: absolute;
+    top: -26px;
+/*    color: white;*/ 
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+.fyou{
+    color: yellow;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+} 
+.ihate{
+    color: yellow;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 2pt;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 158px;
+}
+.howyou{
+     color: yellow;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 8pt;
+    letter-spacing: 2pt;
+    font-weight: 700;
+    line-height: 9pt;
+    text-align: center;
+    position: absolute;
+    top: 286px;
+    left: 146px;
+}
+/* ----- Week 2 Styles: Type & rgba Exp.4 (see bottom of code for animation: it was affecting the appearance of experiments following) ----- */
+/*Type Styling and Positioning*/
+.h1fuck{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: ;
+    font-size: 50pt;
+    letter-spacing: 1.5pt; 
+    position: absolute;
+    top: 40px;
+    left: 48px;
+    color: rgb(255, 204, 204);
+    line-height: 68px
+}
+.theresults{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    line-height: 14pt;
+    position: absolute;
+    top: 260px;
+    left: 48px;
+    color: rgb(255, 204, 204);
+    letter-spacing: 2pt;
+    
+}
+.exclaim{
+    font-family: 'Roboto', sans-serif;
+    font-size: 200pt;
+    text-align: center; 
+    z-index: -1000;
+    position: absolute;
+    top: 20px;
+    left: 92px;
+    color: rgb(255, 51, 102);
+}
+/*Background-Color Change Animation*/
+.divbackground3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 51, 102);
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+}
+/* ----- Week 2 Styles: Type & gradation Exp.5  ----- */
+/*gradient background*/
+    .gradientback {
+	background-image: linear-gradient(#FF3333, #CC3333, #660000, #330000);
+}
+/*gif elements*/
+        .shining{
+            opacity: .5;
+            width: 240px;
+            height: 168.5px;
+            position: absolute;
+            top: 100px;
+        }
+.tenderheart{
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12pt;
+    line-height: 20pt;
+    width: auto;
+    position: absolute;
+    top: 226px;
+    left: 200px;
+    letter-spacing: 1pt;
+    z-index: 1000;
+    color: brown;
+    opacity: .5;
+}
+.quote1{
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 100pt;
+    line-height: 20pt;
+    width: auto;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    z-index: 1000;
+    color: brown;
+    opacity: .6;
+}
+.quote2{
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20pt;
+    line-height: 20pt;
+    width: auto;
+    position: absolute;
+    top: 310px;
+    left: 278px;
+    letter-spacing: 2pt;
+    z-index: 1000;
+    color: brown;
+    opacity: .5;
+}
+.blendersounds{
+     font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 10pt;
+    line-height: 20pt;
+    width: auto;
+    position: absolute;
+    top: 78px;
+    left: 116px;
+    letter-spacing: .5pt;
+    z-index: 1000;
+    color: brown;
+    opacity: .75;
+}
+.blend{
+     font-family: 'Vollkorn', serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 14pt;
+    line-height: 20pt;
+    width: auto;
+    position: absolute;
+    top: 22px;
+    left: 28px;
+    letter-spacing: 2pt;
+    z-index: 1000;
+    color: brown;
+    opacity: .75;
+}
+
+/* ----- Week 2 Styles: Type & Animation Exp.6  ----- */
+.divbackground6{
+    background-color: rgb(255, 227, 146);
+}
+    .happytype{
+        font-family: 'EB Garamond', serif;
+        font-weight: 500;
+        position: absolute;
+        top: 100px;
+        left: 40px;
+        letter-spacing: 1pt;
+        color: rgb(232, 193, 121)
+    }
+.arecolor{
+    color: rgb(252, 246, 222);
+}
+
+/* ----- Week 2 Styles: Image & Transparency Exp.7  ----- */
+.divbackground7{
+    background-image: url("../images/imageexperiments.jpg");
+    background-size: 350px 350px;
+    background-blend-mode: hard-light;
+    background-color: darkred; 
+}
+.whobuys{
+    font-family: 'Kanit', sans-serif;
+    font-size: 38px;
+    letter-spacing: 3pt;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    line-height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 36px;
+}
+.question{
+    font-family: 'Kanit', sans-serif;
+    font-size: 300px;
+    font-weight: 500;
+    letter-spacing: 1pt;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    line-height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.strawberry{
+    width: 300px;
+    mix-blend-mode: color-burn;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.strawberry2{
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: color-dodge;
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    z-index: -1000;
+}
+.icustom{
+    color: white;
+    
+}
+
+/* ----- Week 2 Styles: Image & Repetition Exp.8  ----- */
+.divbackground8{
+    background-color: cornsilk; 
+    overflow: scroll;
+}
+.middlecard{
+    position: relative;
+    top: auto;
+    left: 110px;
+}
+.cardimgsize{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    
+}
+.whatdoes{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 10pt;
+    letter-spacing: .75pt;
+    line-height: 11pt;
+    position: absolute; 
+    top: 180px;
+    left: 228px;
+    
+}
+.tenderhearts{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 10pt;
+    letter-spacing: .75pt;
+    line-height: 11pt;
+    position: absolute; 
+    top: 438px;
+    left: 22px;
+    text-align: right;
+    
+}
+.giveup{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 10pt;
+    letter-spacing: .75pt;
+    line-height: 11pt;
+    position: absolute; 
+    top: 682px;
+    left: 228px;
+}
+.vent{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 11pt;
+    position: absolute; 
+    top: px;
+    left: 6px;
+    margin: 10pt;
+}
+
+/* ----- Week 2 Styles: Image & Reveal Exp.9  ----- */
+.harry1{
+    height: 350px;
+    width: 350px;
+    z-index: -1000;
+}
+.reality{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+    letter-spacing: 2.25pt; 
+    color: white;
+    position: absolute;
+    top: 303px;
+    left: 50px;
+}
+.divbackground9{
+    background-color: rgb(255, 98, 86);
+    width: 351px;
+    height: 50px;
+    position: absolute;
+    top: 302px;
+}
+
+/* ----- Week 2 Styles: Space & Positioning Exp.10  ----- */
+    .divbackground10{
+        background-color: black;
+        stroke: white 10px; 
+    }
+.divide{
+     font-family: 'Inconsolata', monospace;
+    font-size: 8pt;
+    letter-spacing: 3pt;
+    color: black;
+    position: absolute;
+    top: 136px;
+    left: 58px;
+}
+.change{
+    font-family: 'Inconsolata', monospace;
+    font-size: 8pt;
+    letter-spacing: 3pt;
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 220px;
+}
+.slash1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 80pt;
+    font-weight: 400;
+    letter-spacing: 3pt;
+    color: white;
+    position: absolute;
+    top: 154px;
+    left: 210px;
+    animation: ani2 1.5s infinite;
+}
+.slash2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 80pt;
+    font-weight: 400;
+    letter-spacing: 3pt;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    animation: ani 1.5s infinite;
+}
+
+
+/* ----- Week 2 Styles: Space & Z-Index Exp.11  ----- */
+.divbackground11{
+    background-color: pink;
+}
+.blender{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top: -18px;
+    left: -62px;
+    z-index: -1000;
+}
+.fruitsize{
+    width: 240px;
+    height: 240px; 
+}
+.letgo{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    z-index: 1000;
+    width: 54px;
+    height: 68px;
+}
+/*Image Slideshow Styling*/
+/* Slideshow container */
+.slideshow-container {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 105px;
+    left: 100px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 120px;
+    margin-top: -110px;
+    margin-left: -10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    font-size: 38px;
+    transition: 0.6s ease;
+    border-radius:  3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 0px 0 0 0px;
+}
+/* ----- Week 2 Styles: Space & Zoom Exp.12  ----- */
+.divbackground12{
+    background-color: mintcream;
+}
+.zoom{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    line-height: 30pt;
+    font-size: 24pt;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    letter-spacing: .5pt;
+    color: gray;
+}
+.zoom2{
+    letter-spacing: 4pt;
+    font-style: italic;
+   color: rgb(113, 176, 141);
+}$
+.nothappy{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    line-height: 12px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: darkgray;
+}
+.ithink{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 6pt;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    color: darkgray;
+}
+.sorry{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 4pt;
+    position: absolute;
+    top: 30px;
+    left: 248px;
+    font-style: italic;
+    color: rgb(113, 176, 141);
+}
+.sorry2{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 4pt;
+    position: absolute;
+    top: 170px;
+    left: 48px;  
+    font-style: italic;
+    color: rgb(113, 176, 141);
+}
+.sorry3{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 4pt;
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    font-style: italic;
+    color: rgb(113, 176, 141);
+}
+.love{
+    color: rgb(113, 176, 141);
+    opacity: .5; 
+}
+        
+/* Week 3 Styles: Video & Type Exp.1 */
+.divbackgroundvidtype{
+    background-color: rgb(255, 93, 31);
+}
+.typevideo{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    z-index: -1000;
+} 
+.fortunediv{
+    background-color: white;
+    width: 240px;
+    padding: 6px;
+    position: absolute;
+    top: 40px;
+    left: 14px;
+    transform: rotate(-14deg);
+}
+.fortune{
+    font-family: 'Linden Hill', serif;
+    letter-spacing: .75pt;
+    font-weight: 400;
+    line-height: 14pt;
+    font-size: 12pt;
+    text-align: center;
+    color: navy;
+}
+.square1{
+    background-color: navy;
+    height: 10px;
+    width: 80px;
+    z-index: 1000;
+    position: absolute;
+}
+.square2{
+    background-color: navy;
+    height: 10px;
+    width: 10px;
+    z-index: 1000;
+    position: absolute;
+    left: 340px;
+}
+.square3{
+    background-color: navy;
+    height: 18px;
+    width: 40px;
+    z-index: 1000;
+    position: absolute;
+    top: 333px;
+}
+.square4{
+    background-color: navy;
+    height: 18px;
+    width: 10px;
+    z-index: 1000;
+    position: absolute;
+    top: 333px;
+    left: 340px;
+}
+    
+    
+/* Week 3 Styles: Video & Direction Exp.2 */
+.divbackgroundviddirect{
+    background-color: rgb(149, 0, 255);
+}
+.directionvideo{
+    position: absolute;
+    top: -40px;
+    left: 40px;
+    z-index: -1000;
+}
+.wish2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23pt;
+    font-style: italic;
+    z-index: 1000;
+    line-height: 120pt;
+    position: absolute;
+    top: -30px;
+    left: 70px;
+    letter-spacing: .5pt;
+    color: white;
+    -webkit-text-stroke: 1px rgb(149, 0, 255);
+}
+.stepout{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26pt;
+    font-style: italic;
+    z-index: 1000;
+    line-height: 120pt;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    letter-spacing: .5pt;
+    color: white;
+    -webkit-text-stroke: 1px rgb(149, 0, 255);
+}
+.system{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27pt;
+    font-style: italic;
+    z-index: 1000;
+    line-height: pt;
+    position: absolute;
+    top: 260px;
+    left: 60px;
+    letter-spacing: .5pt;
+    color: white;
+    -webkit-text-stroke: 1px rgb(149, 0, 255);
+}
+.wishtwo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60pt;
+    font-weight: 500;
+    font-style: italic;
+    z-index: 1000;
+    line-height: pt;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(149, 0, 255);
+}
+    
+/* Week 3 Styles: Video & Multiples Exp.3 */
+.divbackgroundmulti{
+    background-color: mintcream;
+}
+.naturevideos{
+    padding: 5px;
+    position: relative;
+    top: 30px;
+    left: 4px;
+}
+.naturetext{
+    font-family: 'Caudex', serif;
+    font-size: 10pt;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    letter-spacing: .5pt;
+    color: darkseagreen;
+}
+    
+/* Week 3 Styles: Sound & Voice  Exp.4 */
+.divbackgroundvoice{
+    background-color: rgb(157, 179, 18);
+}
+.voicesound{
+    width: 110px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    opacity: .75;
+} 
+.stay{
+    font-family: 'Fauna One', serif;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    line-height: 24pt;
+    position: absolute;
+    top: 146px;
+    left: 174px;
+    color: rgb(157, 179, 18);
+}
+.past{
+    font-family: 'Fauna One', serif;
+    font-size: 18pt;
+    letter-spacing: 2.5px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: rgb(219, 255, 0);
+}
+.present{
+    font-family: 'Fauna One', serif;
+    font-size: 27pt;
+    letter-spacing: 2.5px;
+    line-height: 24pt;
+    position: absolute;
+    top:178px;
+    left: 168px;
+    color: rgb(157, 179, 18);
+    text-align: right;
+}
+.future{
+    font-family: 'Fauna One', serif;
+    font-size: 18pt;
+    letter-spacing: 2.5px;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: rgb(219, 255, 0);
+}
+.circlepresent{
+    position: absolute;
+    top: -22px;
+    left: -20px;
+    z-index: -1000;
+}
+/*Animate strike-through found on https://stackoverflow.com/questions/36267507/is-it-possible-to-animate-a-css-line-through-text-decoration/36267849*/
+@keyframes strike {
+  from { text-decoration-color: transparent; }
+  to { text-decoration-color: rgb(179, 22, 9); }
+}
+.strike {  
+  text-decoration: line-through;
+  animation: strike 5s linear;
+}
+   
+/* Week 3 Styles: Sound & Music Generator Exp.5 */
+.divbackgroundmusic{
+    background-color: black;
+}
+.musicaudio{
+    width: 115px;
+    position: absolute;
+    top: 48px;
+    left: 32px;
+    background-color: white;
+}
+.wish5{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-style: italic;
+    line-height: 13pt;
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 168px;
+}
+.confession{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 26px;
+    letter-spacing: 3px;
+    line-height: 22pt;
+    color: yellow;
+    position: absolute;
+    top: 120px;
+    left: 28px;
+}
+.screenshot{
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    letter-spacing: .5px;
+    font-style: italic;
+    line-height: 10pt;
+    color: yellow;
+    position: absolute;
+    top: 10px;
+    left: 28px;
+}
+ /*Response Styling*/
+.styletextarea{
+    font-family: 'Karla', sans-serif;
+    position: relative;
+    top: 214px;
+    left: 26px;
+    width: 288px;
+    height: 115px;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    font-size: 16pt;
+    font-style: italic;
+    color: black;
+    letter-spacing: 1pt;
+    font-weight: 700;
+}  
+    
+/* Week 3 Styles: Sound & Loops Exp.6 */
+.blinking2{
+    animation:blinkingText2 .75s infinite;
+}
+@keyframes blinkingText2{
+    0%{     color: white;    }
+    49%{    color: white; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+} 
+.divbackgroundloop{
+    background-color: black;
+}
+.fairiesaudio{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 114px;
+    opacity: .75;
+}  
+.ibelieve{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    letter-spacing: 1pt;
+    font-size: 36pt;
+    color: black;
+     -webkit-text-stroke: .75px white;
+    position: absolute;
+    top: 100px;
+    left: 24px;
+    line-height: 38pt;
+}
+.wish6{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+    color: white;
+    position: absolute;
+    top: 38px;
+    left: 160px;
+    text-align: right;
+}
+.ido{
+     font-family: 'Merriweather', serif;
+    font-weight: 700;
+    letter-spacing: 1pt;
+    font-size: 36pt;
+    position: absolute;
+    -webkit-text-stroke: .75px white;
+    position: absolute;
+    top: 260px;
+    left: 24px;
+}
+
+
+/* Week 3 Styles: Gif & Meme Exp.7 */
+/*Blinking Animation Found on https://html-online.com/articles/blinking-text-css-animation/*/ 
+
+.divbackgroundgif7{
+    background-color: orangered;
+}
+.rongif{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    z-index: -1000;
+}   
+.wish7{
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 17pt;
+    font-size: 16pt;
+    font-weight: 300;
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 290px;
+    left: 30px; 
+    color: white;
+}
+.survive{
+    font-weight: 700;
+}
+.stress{
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 14pt;
+    font-size: 14pt;
+    font-weight: 700;
+    letter-spacing: .75pt;
+    color: white;
+    
+}
+.process{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+.essays{
+    position: absolute;
+    top: 20px;
+    left: 278px;
+    font-size: 12pt;
+}
+.posters{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+.coding{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+}
+.reviews{
+    position: absolute;
+    top: -2px;
+    left: 20px;
+    font-size: 12pt;
+    
+}
+.motion{
+    position: absolute;
+    top: -2px;
+    left: 180px;
+}
+.reading{
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    font-size: 12pt;
+}
+.million{
+    position: absolute;
+    top: 122px;
+    left: 96px;
+    font-size: 16pt;
+}
+.blinking{
+    animation:blinkingText .6s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: white;    }
+    49%{    color: white; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+} 
+
+/* Week 3 Styles: Gif & Recursive Exp.8 */
+.divbackgroundgif8{
+    background-color: rgb(232, 187, 142);
+    background-color: sandybrown;
+}
+.ellegif{
+        width: 252px;
+        height: 336px; 
+        position: absolute;
+        top: 6.6px;
+        left: 80px; 
+        z-index: -100;
+    }  
+.mountaingif{
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 144px;
+    left: 10px;
+    
+}
+.denver{
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 6pt;
+    position: absolute;
+    top: 308px;
+    left: 18px;
+    text-align: right;
+    color: mintcream;
+    z-index: 1000;
+    letter-spacing: .5pt;
+}
+
+.laceyelle{
+     font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: mintcream;
+    letter-spacing: .5pt;
+    line-height: 16pt;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    text-align: right;
+}
+.wish8{
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 8pt;
+    color: mintcream;
+    letter-spacing: 1.2pt;
+    line-height: 10pt;
+    position: absolute;
+    top: 14px;
+    left: 163.4px;
+}
+.boldwish8{
+    font-weight: 700;
+}
+
+.dandycircle{
+    position: absolute;
+    top: 100px;
+    left: 126px;
+}  
+.dandycircle2{
+    position: absolute;
+    top: -4px;
+    left: 260px;
+}  
+.dandycircle3{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+} 
+
+/* Week 3 Styles: Gif & Loop Exp.9 */
+.divbackgroundgif9{
+    background-color: rgb(232, 192, 172);
+}
+.one{
+    font-family: 'Gupter', serif;
+    font-size: 6pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 114px;
+    left: 14px;
+    color: white;
+    transform: rotate(90deg);
+    
+}
+.two{
+    font-family: 'Gupter', serif;
+    font-size: 6pt;
+    font-weight: 500;
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 148px;
+    left: 213px;
+    color: white;
+}
+.three{
+    font-family: 'Gupter', serif;
+    font-size: 6pt;
+    font-weight: 400;
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 294px;
+    left: 136px;
+    color: white;
+    transform: rotate(90deg);
+}
+.watertype{
+    font-family: 'Gupter', serif;
+    z-index: 1000;
+    font-weight: 400;
+    letter-spacing: .5pt;
+}
+.wish9{
+    font-size: 18pt;
+    position: absolute;
+    top: 0px;
+    left: 16px;
+    color: white;
+}
+.lap{
+   font-size: 12pt;
+    position: absolute;
+    top: 301px;
+    left: 14px;
+    color: white;
+}
+.dip{
+    font-size: 12pt;
+    position: absolute;
+    top: 176px;
+    left: 220px;
+    color: white;
+    line-height: 12pt;
+    text-align: center;
+}
+.dance{
+    font-size: 12pt;
+    position: absolute;
+    top: 300px;
+     top: 101px;
+    left: 102px;
+    color: white;
+}
+.sisters{
+    font-size: 10pt;
+    position: absolute;
+    top: 320px;
+    left: 206px;
+    color: white;
+    line-height: 10pt;
+    text-align: right;
+}
+.verbcolor{
+background-color: rgb(232, 192, 172, .75);
+padding: 1pt;
+text-align: center;s
+}
+.watergif1{
+    width: 256px;
+    height: 144px;
+    position: absolute;
+    top: px;
+    left: px;
+    z-index: -10000;
+} 
+.watergif2{
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    top: 120px;
+    left: 14px;
+    opacity: .5;
+    z-index: -1000;
+}  
+.watergif3{
+    width: 256px;
+    height: 144px;
+    position: absolute;
+    top: 206px;
+    left: 0px;
+     z-index: -1000;
+}  
+    
+/* Week 3 Styles: YouTube & Rhythm Exp.10 */
+.divbackgroundyoutube{
+    background-color: rgb(255, 187, 186);
+}
+.youtube{
+    position: absolute;
+    top: 82px;
+    left: 80px;
+}
+.wish10{
+    font-family: 'Inknut Antiqua', serif;
+    letter-spacing: 1pt;
+    font-size: 13pt;
+    position: absolute;
+    top: 20px;
+    left: 78px;
+    color: navy;
+}
+.weall{
+    font-family: 'Inknut Antiqua', serif;
+    letter-spacing: 1pt;
+    font-size: 13pt;
+    position: absolute;
+    top: 42px;
+    left: 80px;
+    color: navy;
+}
+.speakup{
+    font-family: 'Inknut Antiqua', serif;
+    letter-spacing: 1pt;
+    font-size: 15pt;
+    position: absolute;
+    top: 178px;
+    left: 78px;
+    color: navy;
+}
+.something{
+    font-family: 'Inknut Antiqua', serif;
+    letter-spacing: 1pt;
+    font-size: 18pt;
+    font-weight: 600;
+    position: absolute;
+    top: 198px;
+    left: 78px; 
+    background: transparent;
+    border: none;
+    color: red;
+}
+
+/*Week 3: Experiment 10, Drop Down Function*/
+.chant{
+    color: white;
+    font-size: 8pt;
+}
+.checkbox{
+    font-size: 10pt;
+}
+.rights{
+    font-family: 'Merriweather', serif;
+    letter-spacing: 1.5pt;
+    font-size: 6pt;
+    font-weight: 800;
+    position: relative;
+    left: 36px;
+    line-height: 12pt;
+    font-weight: 600;
+    color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 180px;
+    border: solid .25px red;
+    z-index: 1;
+    position: absolute;
+    top: 248px;
+    left: 78px;
+    padding: 5px;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color: navy;}
+
+/* Week 3 Styles: Map & Personality Exp.11 */
+.divbackgroundiframe{
+    background-color: black;
+    overflow: scroll;
+}
+.yodagif{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    z-index: -1000;
+}
+.babyyoda2{
+    width: 182.33px;
+    height: 182.33px;
+    position: absolute;
+    top: 480px;
+    left: 154px;
+    transform: rotate(-10deg);
+    
+}
+.map{
+    position: absolute;
+    top: 600px;
+    left: px;
+}
+.wish11{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18pt;
+    line-height: 24pt;
+    letter-spacing: 1pt;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    
+}
+.wish112{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18pt;
+    line-height: 24pt;
+    letter-spacing: 1pt;
+    color: lime;
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    z-index: -1000;
+    
+}
+.instruction{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+    line-height: 20pt;
+    letter-spacing: 3pt;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+.circle1{
+    position: absolute;
+    top: 260px;
+    left: 60px;
+}
+.circle2{
+    position: absolute;
+    top: 466px;
+    left: 170px;
+}
+.starshr1{
+    border-top: 2px dotted lime;
+    width: 114px;
+    position: relative;
+    top: 224px;
+    transform: ;
+    transform: rotate(60deg);
+    border-bottom: none;
+}
+.starshr2{
+    border-top: 2px dotted lime;
+    width: 68px;
+    position: absolute;
+    top: 470px;
+    left: 80px;
+    border-bottom: none;
+     transform: rotate(90deg);
+}
+.starshr3{
+    border-top: 2px dotted lime;
+    width: 28px;
+    position: absolute;
+    top: 508px;
+    left: 114px;
+    border-bottom: none;
+/*     transform: rotate(90deg);*/
+}
+
+/* Week 3 Styles: iframe & Nested iframes Exp.12 */
+.divbackgroundiframe2{
+    background-color: thistle;
+    overflow: scroll;
+}
+.bottommargin{
+    color: lightpink;
+    position: absolute;
+    top: 500px;
+}
+.songsposition{
+    position: relative;
+    top: 20px;
+    left: 24px;
+}
+.twelve{
+    font-family: 'Prata', serif;
+    font-size: 36pt;
+    letter-spacing: 2pt;
+    width: 160px;
+    line-height: 38pt;
+    position: absolute;
+    top: 264px;
+    left: 178px;
+    color: black;
+    
+}
+.wish12{
+    font-family: 'Prata', serif;
+    font-size: 10pt;
+    letter-spacing: 1.2pt;
+    line-height: 14pt;
+    position: absolute;
+    top: 380px;
+    left: 240px;
+    color: black;
+}
+.lovesongs{
+    font-family: 'Prata', serif;
+    font-size: 8pt;
+    position: absolute;
+    top: 478px;
+    left: 180px;
+    letter-spacing: 2pt;
+    color:black;
+}
+.inlove{
+    color: ghostwhite;
+}
+
+/*ANIMATIONS*/
+/*week2- experiment 10: Space & Position animation*/
+@keyframes ani {
+  0% {
+    left: -400;
+  }
+  50% {
+    left: 70px;
+  }
+  100% {
+    left: ;
+  }
+}
+@keyframes ani2 {
+  0% {
+    left: -400;
+  }
+  50% {
+    left: 240px;
+  }
+  100% {
+    left: ;
+  }
+}
+
+/*week 2- experiment 4: Type & RGB Animation*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {background-color: rgb(255, 51, 102);}
+  to {background-color: rgb(255, 204, 204);}
+}
+/* Standard syntax */
+@keyframes example {
+  from {background-color: rgb(255, 51, 102);}
+  to {background-color: rgb(255, 204, 204)}   

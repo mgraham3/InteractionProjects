@@ -1,0 +1,94 @@
+/* matthew raupp - interaction 2 - project 1 */
+
+/* ----- global styles -----  */
+
+* {
+    padding: 0;
+    margin: 5;
+}
+
+/*uncommentting this rule forces all divs to temp have a border*/
+/*div {border: red solid thin;}*/
+
+#wrapper {
+    width: 350px;
+    margin: 0 auto;
+}
+
+ body{
+     font-family: Raleway;
+        }
+a{
+    color: white;
+}
+h1{
+    color: white;
+    letter-spacing: 1.5pt;
+    font-weight: 600;
+    position: relative;
+    top: 10px
+}
+.h1style{
+    font-size: 30pt;
+    position: relative;
+    top: 40px;
+}
+h2{
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: -20px;
+}
+a {
+    text-decoration: none;
+}
+p{
+    position: relative;
+    top: -10px
+}
+
+a:hover {
+    color: black;
+}
+p{
+    color: white;
+    letter-spacing: 1pt;
+}
+li{
+    letter-spacing: .75pt;
+}
+
+
+/* ----- project index page styles ----- */
+
+#index {
+    background-color: #BADA55;
+}
+
+#index #wrapper {
+    width: 50%;
+    height: 100vh;
+    padding: 50px;
+}
+
+#index #title, ul {
+    padding-bottom: 30px;
+}
+
+#index ul li {
+    list-style:decimal;
+    color: white;
+}
+
+/* -----  project template  ----- */
+#template {
+    width: 350px;
+    height: 350px;
+    border: 1px solid grey;
+    position: absolute;
+    
+    /* vertical center */
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

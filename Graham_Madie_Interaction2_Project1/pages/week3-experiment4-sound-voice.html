@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!--Interaction 2: Project 1: Week 3 Experiment 4: Sound & Voice-->
+<!--Rational: In this experiment, I recorded myself reading a poem I had written and then edited the audio in Premier Pro. I tried some basic CSS strike-through coding, and really wanted to focus on simple shape interacting with type forms.-->
+<html>
+<head>
+    
+    <title>experiment 4: sound voice</title>
+    <link rel="stylesheet" href="../css/project1.css" type="text/css">  
+<!--    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<link href="https://fonts.googleapis.com/css?family=Fauna+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+
+    <div class="divrelative divbackgroundvoice" id="template">
+    <!--Type-->
+    <h1 class="stay">stay</h1>
+    <h1 class="strike past">PAST</h1>
+    <h1 class="present"><span>PRE-</span><br>SENT</h1>
+    <h1 class="strike future">FUTURE</h1>
+    <!--Audio-->
+    <audio class="voicesound" controls>
+        <source src="../images/week3-exp4-voice.mp3" type="audio/mpeg" autoplay loop> 
+    </audio>
+     <!--SVG Circle-->
+    <svg class="circlepresent" height="400" width="400">
+        <circle cx="200" cy="200" r="100" fill="rgb(219, 255, 0)" />
+    </svg> 
+    </div>
+
+</div>
+
+<!-- javascript -->
+
+<script type="text/javascript" src="">$(document).ready(function() {
+    _text = $("#myDiv").text();
+    StrikeThrough(0);
+});
+
+function StrikeThrough(index) {
+    if (index >= _text.length)
+        return false;
+    var sToStrike = _text.substr(0, index + 1);
+    var sAfter = (index < (_text.length - 1)) ? _text.substr(index + 1, _text.length - index) : "";
+    $("#myDiv").html("<strike>" + sToStrike + "</strike>" + sAfter);
+    window.setTimeout(function() {
+        StrikeThrough(index + 1);
+    }, 100);
+}</script>
+
+</body>
+</html>

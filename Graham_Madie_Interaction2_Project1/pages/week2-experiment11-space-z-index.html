@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!-- Interaction 2: Project 1: Experiment 11: Space & Z-Index-->
+<!--Rational: For this experiment, I wanted to make some funky, silly graphics in Illustrator of a blender and layer fruits on top of it by utilizing the Z-Index. Each fruit representes something to let go of after a rough break-up.-->
+<html>
+<head>
+        <title>experiment 10: space & positioning</title>
+    <link rel="stylesheet" href="../css/project1.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
+<!--    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+</head>
+<body>
+<div id="wrapper">
+
+    <div class="divrelative slideshow-container divbackground11 " id="template">
+<!--Illustrator Graphics Saved as PNGs-->
+        <img class="blender" src="../images/exp11_blender.png">
+    <div class="slideshow-container">
+    <div class="mySlides fade">
+        <img class="fruitsize" src="../images/exp11_fruit1.png">
+    </div>
+    <div class="mySlides fade">
+        <img class="fruitsize" src="../images/exp11_fruit2.png">
+    </div>
+    <div class="mySlides fade">
+        <img class="fruitsize" src="../images/exp11_fruit3.png">
+    </div>
+    <div class="mySlides fade">
+    <img class="fruitsize" src="../images/exp11_fruit4.png">   
+        </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+<!--Let Go as PNG since Freight Mirco was taken off of Google Fonts -->
+    <img class="letgo" src="../images/exp11_type.png">
+    </div>
+    
+</div>
+
+<!-- javascript -->
+<!--Gallery Jquery Code-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function myFunction() {
+  alert("Justice will be served: Report filed!");
+}
+</script>
+
+</body>
+</html>
