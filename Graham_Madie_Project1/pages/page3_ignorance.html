@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!--Empathize; Page 3: Ignorance-->
+<html>
+<title>ignorance</title>
+<head>
+<style>
+    body{
+        background-color: rgb(153,0,51);
+    }
+/* image/video styling */
+    .marieimage{
+        width: 575px;
+        height: 675px;
+        position: absolute;
+        top: 100px;
+        left: 300px;
+        z-index: 1000
+    }   
+    .graphic{
+        width: 694px;
+        height: 498px;
+        position: absolute;
+        bottom: -1000px;
+        left: 300px;
+        z-index: -1000;
+    }
+    video{
+        position: absolute;
+        top: 450px;
+        left: 750px;
+    }
+
+/* h1 Ignorance is Bliss Style*/
+    .ignorance{
+        font-family: courier new;
+        font-size: 45pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 13pt;
+        font-weight: 200;
+        position: absolute;
+        top: 808px;
+        left: 295px;
+        z-index: 1000;
+    }
+    .is{
+        font-family: trebuchet ms;
+        font-size: 40pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 0pt;
+        font-weight: 200;
+        position: absolute;
+        top: 1000px;
+        left: 750px; 
+        z-index: 1000;
+    }
+    .bliss{
+        font-family: courier new;
+        font-size: 45pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 13pt;
+        font-weight: 200;
+        position: absolute;
+        top: 1192px;
+        left: 750px;
+        z-index: 1000;
+    }
+/* p=my lyrics style */
+    .line1{
+        font-family: trebuchet ms;
+        font-size: 14pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 2pt;
+        position: absolute;
+        top: 1835px;
+        left: 285px;  
+    }
+    .line2{
+        font-family: trebuchet ms;
+        font-size: 14pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 2pt;
+        position: absolute;
+        top: 1870px;
+        left: 370px;
+    }
+    .line1div{
+        background-color: rgb(204, 153, 51);
+        position: absolute;
+        width: 670px;
+    }
+    .line2div{
+        background-color: rgb(204, 153, 51);
+        position: absolute;
+        width: 740px;
+    }
+/* Line Style */
+    .hr1{
+        margin-top: 0px;
+        border-style: solid;
+        border-color: rgb(204, 153, 51);
+        border-width: 10px;
+        width: 800px;
+        position: absolute;
+        top: 350px;
+        left: 500px;
+        z-index: 1000;
+    }
+    .hr2{
+        margin-top: 0px;
+        border-style: solid;
+        border-color: rgb(204, 153, 51);
+        border-width: 2px;
+        width: 400px;
+        position: absolute;
+        top: 320px;
+        left: 750px;
+        z-index: 1000;
+    }
+    .hr3{
+        margin-top: 0px;
+        border-style: solid;
+        border-color: rgb(204, 153, 51);
+        border-width: 2px;
+        width: 397px;
+        position: absolute;
+        top: 395px;
+        left: 1150px;
+        z-index: 2000;
+    }
+    .diagonalline{
+        margin-top: 0px;
+        border-style: solid;
+        border-color: rgb(204, 153, 51);
+        border-width: 1px;
+        width: 1570px;
+        position: absolute;
+        top: 1340px;
+        left: 250px;
+        transform: rotate(45deg);    
+    }
+/* Horizontal Line Style */
+    svg{
+        position: absolute;
+        top: 1850px;
+        left: 1545px;
+    }
+/* nav style */
+    .home{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(204, 153, 51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 445px;
+    }
+    .envy{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(204, 153, 51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 510px;
+    }
+    .ignorance2{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(204, 153, 51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 595px;
+    }
+     .fear{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(204, 153, 51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 745px;
+    }
+    .apathy{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(204, 153, 51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 400px;
+        left: 420px; 
+        position: absolute;
+        top: 15px;
+        left: 835px;
+    }
+        .empathizehumanize{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(204, 153, 51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 975px;
+    }
+      .selectedlink{
+        text-decoration: line-through;
+        text-decoration-color: rgb(204, 153, 51); 
+    }
+     a.e1:hover{
+        text-decoration: line-through;
+        text-decoration-color: rgb(204, 153, 51); 
+    }
+    a.e2:hover{
+        text-decoration: underline;
+        text-decoration-color: rgb(204, 153, 51); 
+    } 
+    .navdiv{
+        width: 1000px;
+        position: absolute;  
+        top: 10px;
+    }
+/*to add margin space at bottom*/
+  .hr4{
+        margin-top: 0px;
+        border-style: dashed;
+        border-color: rgb(153,0,51);;
+        border-width: 1px;
+        width: 20px;
+        position: absolute;
+        top: 2000px;
+        left: 262px;
+    }
+</style>
+</head>
+<body>
+<!--Heading, Ignorance is Bliss, Div-->
+<div>
+<h1 class="ignorance">IGNORANCE</h1>
+<h1 class="is">is</h1>
+<h1 class="bliss">BLISS</h1>
+<!--Paragraph of Lyrics Div-->
+</div>
+<div>
+<p class="line1 line1div">There’s no resting in silence/ Only indifference and greed / 
+</p>
+<p class="line2 line2div"> It weighs on the conscious/ the masses scream for us to take heed</p>
+</div>
+<!--Images/Video Divs-->
+<div>
+<img class="marieimage" src="../images/page3_ignorance_1-01.png" alt="Marie Antoinette Drawn Portrait">
+</div>
+<div>
+<img class="graphic" src="../images/page3_ignorance_graphic.png" alt="light cream dashed circle and rasberry-red scribbles">
+</div>
+<div>
+<video autoplay muted width="800" controls autoplay> <source src="../images/page3_ignorance%203.mp4" alt="Slow pan video of a pristine, beautiful, and blue cloudy sky"></video>
+</div>
+<!--Yellow Lines-->
+<hr class="hr1">
+<hr class="hr2">
+<hr class="hr3">
+<hr class="diagonalline">
+<!--circle-->
+<svg height="100" width="100">
+  <circle cx="45" cy="45" r="22.5" fill="rgb(255, 255, 204)" />
+</svg>
+<!--Navigation Text-->
+<div class="navdiv">
+<a class="home e2" href="p1home.html">HOME</a>
+<a class="envy e1" href="page%202_envy.html">/ ENVY /</a>
+<a class="ignorance2 selectedlink  e1" href="page3_ignorance.html"> &nbsp; IGNORANCE /</a> 
+<a class="fear e1" href="page4_fear.html"> &nbsp; FEAR /</a>
+<a class="apathy e1" href="page5_apathy.html"> &nbsp; APATHY /</a>
+<a class="empathizehumanize e2" href="page6_humanize.html">EMPATHIZE,HUMANIZE</a>
+<hr class="hr4">
+</div>
+</body>
+</html>

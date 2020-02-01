@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!--Students For a Democratic Society; Page 3: Report-->
+<html>
+<title>REPORT</title>
+<head>
+<!--CSS Link & Font Links-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/page3_report.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|IBM+Plex+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page-container">
+<!--Navigation-->
+<nav class="adiv">
+    <a class="e1" href="../p3home.html">HOME</a>
+    <a class="e1" href="../pages/page1_organize.html">ORGANIZE</a>
+    <a class="e1" href="../pages/page2_voice.html">VOICE</a>
+    <a class="selectedlink" href="../pages/page3_report.html">REPORT!</a>
+    <a class="e1" href="../pages/page4_create.html">CREATE</a>
+    <a class="e1" href="../pages/page5_fight.html">FIGHT</a>
+</nav>
+<!--Headlines & Page Explanation-->
+<section>
+    <h1 class="h1outline">STAND UP AGAINST</h1>
+    <h1 class="h1solid">POLICE BRUTALITY</h1>
+    <h2>SDS will stand beside you to report & hold <br> police officers & authority figures accountable <br> for unjust acts of force & brutality. Report below.</h2>
+</section>
+<!--Report Step-by-Step Divs-->
+<!--Step 1-->
+<section class=
+"stepsection">
+        <h3 class="one">1</h3>
+        <p class="steponetype">!! Click to enter<br>
+        &nbsp;&nbsp;&nbsp; badge # of<br> &nbsp;&nbsp;&nbsp; police officer !!</p>
+        <form action="/action_page.php">
+        <input type="text" name="" value="12345">
+        <br>
+        </form> 
+        <svg class="step1rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+        <div class="redoutlinerectangle"></div>
+<!--Step 2-->
+        <h3 class="two">2</h3>
+        <p class="steptwotype">?? Do you recognize<br>
+        &nbsp;&nbsp;&nbsp;&nbsp; the assailant ?? <br></p>
+        <svg class="step2rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+<!--Step 3-->
+        <h3 class="three">3</h3>
+        <p class="step3type">!! Describe the incident !!</p>
+        <svg class="step3rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+        <div class="redoutlinerectangle3"></div>
+        <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="30">Type here...</textarea>
+        </form>
+</section>
+<!--Photo Gallery-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../images/police1.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="../images/police2.jpg">
+</div>
+
+<div class="mySlides fade">
+  <img src="../images/police3.jpg">
+</div>
+<div class="mySlides fade">
+  <img src="../images/police4.jpg">
+</div>
+<div class="mySlides fade">
+  <img src="../images/police5.jpg">
+</div>
+<div class="mySlides fade">
+  <img src="../images/police6.jpg">
+</div>
+<div class="mySlides fade">
+  <img src="../images/police7.png">
+</div> 
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!--Button-->
+ <!--Module-->
+    <div>
+        <button onclick="myFunction()" class="send">REPORT</button>
+    </div>
+</div>
+<!--Gallery Jquery Code-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function myFunction() {
+  alert("Justice will be served: Report filed!");
+}
+</script>
+
+</div>
+</body>
+</html>

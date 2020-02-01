@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(255, 204, 204); 
+}
+.container{
+    width: 1664px;
+    margin: 0 auto;
+}
+/*Nav Style*/
+a{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: justify;
+    text-decoration: none;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+ .selectedlink{
+    background-color: white;
+    position: relative;
+    }
+a.e1:hover{
+      background-color: white;
+      position: relative;
+    }
+/*Page Title Style*/
+h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 62pt;
+    letter-spacing: 2pt;
+} 
+
+.power{
+    position: absolute;
+    top: 140px;
+    left: 400px;
+    letter-spacing: 5px;
+}
+.six{
+    font-size: 160pt;
+    position: absolute;
+    top: 115px;
+    left: 400px;
+}
+/*Headline Style*/
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 100pt;
+    letter-spacing: 5pt;
+    width: 780px;
+}
+.reclaim{
+    position: relative;
+    left: 700px;
+    top: 35px;
+    width: 600px;
+}
+.your{
+    position: relative;
+    left: 300px;
+    top: 480px;
+}
+.narrative{
+    position: relative;
+    left: 538px;
+    top: 800px;
+}
+/*audio positioning*/
+audio{
+    position: relative;
+    top: -2400px;
+    left: 380px;
+}
+/*Paragraph Styles*/
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 18pt;
+    line-height: 20pt;
+    text-align: justfy;
+    background-color: white;
+    width: 740px;
+    position: relative;
+    top: -645px;
+    left: 538px;
+}
+/*Taylor Swift Lyrics*/
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 112pt;
+}
+.quote1{
+    position: relative;
+    width: 50px;
+    left: 504px;
+    top: 360px;
+    
+}
+.quote2{
+    position: relative;
+    left: 1292px;
+    top: -150px;
+    width: 50px;
+    height: 70px;
+    
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    font-size: 60pt;
+    line-height: 58pt;
+    letter-spacing: 5pt;
+    position: relative;
+    left: 540px;
+    top: -286px;
+    width: 400px;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    font-size: 22pt;
+    line-height: 24pt;
+    text-align: right;
+    color: white;
+    width: 800px;
+    position: relative;
+    left: 490px;
+    top: 100px;
+}
+h6{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-weight: 400;
+    font-size: 14pt;
+    position: relative;
+    left: 840px;
+    top: -460px;
+}
+/*Image Styling*/
+img{
+    z-index: -1000;
+    width: 1287.2px;
+    height: 1193.6px;
+    position: absolute;
+    top: 440px;
+    left: 220px
+}
+/*Type Texture Styling*/
+h7{
+    width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-weight:  600;
+    font-size: 24pt;
+    line-height: 14pt;
+    text-align: justify;
+    position: relative;
+    left: 0px;
+    top: -2510px; 
+}
+.redheight{
+    height: 0px;
+}
+/*Bottom Margin*/
+.bottom{
+    color: rgb(255, 204, 204);
+    font-style: italic;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 1400px;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!--Students For a Democratic Society; Page 3: Report-->
+<html>
+<title>FIGHT</title>
+<head>
+<!--CSS Link & Font Links-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/page5_fight.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|IBM+Plex+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page-container">
+<!--Navigation-->
+<nav class="adiv">
+    <a class="e1" href="../p3home.html">HOME</a>
+    <a class="e1" href="../pages/page1_organize.html">ORGANIZE</a>
+    <a class="e1" href="../pages/page2_voice.html">VOICE</a>
+    <a class="e1" href="../pages/page3_report.html">REPORT</a>
+    <a class="e1" href="../pages/page4_create.html">CREATE</a>
+    <a class="selectedlink" href="../pages/page5_fight.html">FIGHT!</a>
+</nav>
+<!--Headlines & Page Explanation-->
+<section>
+    <h1 class="h1outline">KNOW YOUR RIGHTS</h1>
+    <h1 class="h1solid">RESIST INJUSTICE</h1>
+    <h2>As students, we face institutions which attempt <br> to sequester our voice. Your voice holds value. <br> The Constitution protects you. Know your rights.</h2>
+</section>
+<!--Report Step-by-Step Divs-->
+<!--Step 1-->
+<section class=
+"stepsection">
+        <h3 class="one">YOUR<br> RIGHTS</h3>
+        <svg class="step1rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+<!--Step 2-->
+        <h3 class="two">EMERGENCY<br>CONTACT</h3>
+        <svg class="step2rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+        <div class="redoutlinerectangle"></div>
+<!--Step 3-->
+        <h3 class="three">LAWYER<br>CONTACT</h3>
+        <svg class="step3rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+        <div class="redoutlinerectangle3"></div>
+<!--Lawyer Contact-->
+<div class="contactposition">
+    <form action="/action_page.php">
+    <div>
+    <div>
+      <label for="fname">NAME:</label>
+    </div>
+    <div>
+      <input type="text" id="fname" name="firstname" placeholder="Type here...">
+    </div>
+  </div>
+  <div>
+    <div>
+            <label for="lname">PHONE #:</label>
+    </div>
+    <div>
+      <input type="text" id="lname" name="lastname" placeholder="Type here...">
+    </div>
+  </div>
+  <div>
+        <div>
+      <label for="subject">LEGAL NEEDS:</label>
+        </div>
+        <div>
+      <textarea id="subject" name="subject" placeholder="Type here..."></textarea>
+    </div>
+  </div>
+  </form>
+</div>
+</section>
+<!--Photo Gallery-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../images/page5_rights-01.png">
+</div>
+
+<div class="mySlides fade">
+  <img src="../images/page5_rights-02.png">
+</div>
+
+<div class="mySlides fade">
+  <img src="../images/page5_rights-03.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-04.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-05.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-06.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-07.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-08.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-09.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-10.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page5_rights-11.png">
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!--Button-->
+    <div>
+        <button onclick="myFunction1()" class="button1">SUBMIT</button>
+    </div>
+    <div>
+        <button onclick="myFunction2()"  class="button2">ALERT ALLY<br> OF YOUR <br> LOCATION</button>
+    </div>
+    <p class="exclamation">!</p>
+</div>
+<!--Gallery Jquery Code-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function myFunction1() {
+  alert("Justice will be served: Request sent!");
+}
+function myFunction2() {
+  alert("Alert sent! An ally is on their way to you.");
+}
+</script>
+</div>
+</body>
+</html>

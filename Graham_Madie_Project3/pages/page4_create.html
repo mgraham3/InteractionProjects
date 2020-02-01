@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!--Students For a Democratic Society; Page 4: Create-->
+<html>
+<title>CREATE</title>
+<head>
+<!--CSS Link & Font Links-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/page4_create.css">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|IBM+Plex+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page-container">
+<!--Navigation-->
+<nav class="adiv">
+    <a class="e1" href="../p3home.html">HOME</a>
+    <a class="e1" href="../pages/page1_organize.html">ORGANIZE</a>
+    <a class="e1" href="../pages/page2_voice.html">VOICE</a>
+    <a class="e1" href="../pages/page3_report.html">REPORT</a>
+    <a class="selectedlink" href="../pages/page4_create.html">CREATE!</a>
+    <a class="e1" href="../pages/page5_fight.html">FIGHT</a>
+</nav>
+<!--Headlines & Page Explanation-->
+<section>
+    <h1 class="h1outline">PAINT WITH POWER</h1>
+    <h1 class="h1solid">PROTEST WITH ART</h1>
+    <h2>Signage supplies voice. What is your message?<br> Communicate through protest art below with the <br> sign & button generators. Create. Print. Share. </h2>
+</section>
+<!--Report Step-by-Step Divs-->
+<!--Step 1-->
+<section class=
+"stepsection">
+        <p class="steponetype">!! Type your<br>
+        &nbsp;&nbsp;&nbsp; message !!<br> </p>
+        <svg class="step1rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+        <div class="redoutlinerectangle"></div>
+        <form action="/action_page.php">
+        <textarea name="message" id="styled1" rows="10" cols="30">GUN CON-TROL NOW</textarea>
+    </form>
+<!--Step 2-->
+        <p class="steptwotype">!! Advocate<br>
+        &nbsp;&nbsp;&nbsp;  our message !!<br></p>
+        <svg class="step2rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+<!--Step 3-->
+        <p class="step3type">!! Create <br>&nbsp;&nbsp; a button !!</p>
+        <svg class="step3rec" width="260px" height="306px">
+        <rect width="260px" height="306px" style="fill:rgb(255, 204, 51)"></rect>
+        </svg>
+        <div class="redoutlinerectangle3"></div>
+      <svg class="buttoncircle" height="200" width="240">
+        <circle cx="100" cy="100" r="80" stroke="#333366" stroke-width="3" fill="none" />  
+        </svg> 
+        <form action="/action_page.php">
+        <textarea name="message2" id="styled2" rows="3" cols="1"> SMASH RACISM NOW</textarea>
+    </form>
+</section>
+<!--Photo Gallery-->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../images/page4_protestsigns-01.png">
+</div>
+
+<div class="mySlides fade">
+  <img src="../images/page4_protestsigns-02.png">
+</div>
+
+<div class="mySlides fade">
+  <img src="../images/page4_protestsigns-03.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page4_protestsigns-04.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page4_protestsigns-05.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page4_protestsigns-06.png">
+</div>
+<div class="mySlides fade">
+  <img src="../images/page4_protestsigns-06.png">
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!--ButtonS-->
+    <div>
+        <button class="button1" onclick="printPopUp()"class="send">PRINT</button>
+    </div>
+    <div>
+        <button class="button2" onclick="printPopUp()"class="send">PRINT</button>
+    </div>
+    <div>
+        <button class="button3" onclick="printPopUp()"class="send">PRINT</button>
+    </div>
+</div>
+<!--Gallery Jquery Code-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+function printPopUp() { 
+                alert("Click okay to print") 
+                window.print(); 
+            }
+</script>
+
+</div>
+</body>
+</html>

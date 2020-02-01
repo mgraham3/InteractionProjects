@@ -1,0 +1,217 @@
+body{
+    background-color: rgb(255, 204, 204); 
+}
+.container{
+    width: 1664px;
+    margin: 0 auto;
+}
+/*Nav Style*/
+a{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: justify;
+    text-decoration: none;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+ .selectedlink{
+    background-color: white;
+    position: relative;
+    }
+a.e1:hover{
+      background-color: white;
+      position: relative;
+    }
+/*audio positioning*/
+audio{
+    position: relative;
+    top: 120px;
+    left: 780px;
+}
+/*Page Title Style*/
+h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 62pt;
+    letter-spacing: 2pt;
+} 
+
+.control{
+    position: absolute;
+    top: 75px;
+    left: 460px;
+    letter-spacing: 5px;
+}
+.five{
+    font-size: 160pt;
+    position: absolute;
+    top: 50px;
+    left: 460px;
+}
+/*animation*/
+.grow:hover{
+        -webkit-transform: scale(2.0);
+        -ms-transform: scale(2.0);
+        transform: scale(2.0);
+    }
+/*Headline Style*/
+h2{font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 100pt;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 91pt;
+    width: px;
+    position: relative;
+    
+}
+.who{
+    position: absolute;
+    top: 130px;
+    left: 588px;  
+}
+.question{
+    position: absolute;
+    top: 30px;
+    left: 1180px; 
+    font-size: 248pt;
+}
+/*Power Imbalance Statement*/
+h4{font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 24pt;
+    font-weight: 500;
+    line-height: 24pt;
+    position: relative;
+}
+.power{
+    position: absolute;
+    text-align: right;
+    top: 900px;
+    left: 300px;
+    width: 360px;
+    background-color: white;
+}
+.her{
+    position: absolute;
+    top: 1011px;
+    left: 1020px;
+    width: 288px;
+    background-color: white;
+}
+/*Paragraph Styles*/
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 18pt;
+    line-height: 20pt;
+    background-color: white;
+}
+.grab{
+    position: relative;
+    top: 819px;
+    left: 652px;
+    width: 470px;
+    text-align: right;
+    background-color: white;
+}
+.how{
+    position: relative;
+    top: 880px;
+    left: 360px;
+    width: 660px;
+    background-color: white;
+}
+.wassold{
+    position: relative;
+    top: 920px;
+    left: 918px;
+    width: 380px;
+    background-color: white;
+}
+.quote{
+    position: relative;
+    top: 1800px;
+    left: 410px;
+    width: 320px;
+    background-color: white;
+}
+/*Taken & Stolen Styling*/
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    letter-spacing: 2pt;
+    font-size: 70pt;
+    font-weight: 500;
+    width: 300px;
+    font-style: italic;
+}
+.taken{
+    position: relative;
+    top: 1000px;
+    left: 440px;
+}
+.stolen{
+    position: relative;
+    top: 800px;
+    left: 900px;
+}
+/*Fruit of labor style*/
+h5{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40pt;
+    font-weight: 600;
+    line-height: 36pt;
+    font-style: italic;
+}
+.fruit{
+    position: relative;
+    top: 770px;
+    left: 440px;
+    width: 300px;
+}
+.fall{
+    position: relative;
+    top: 790px;
+    left: 740px;
+    width: 90px;
+}
+.into{
+    position: relative;
+    top: 790px;
+    left: 840px; 
+    width: 480px;
+}
+/*img positioning*/
+.img1{
+    z-index: -1000;
+    width: 1082px;
+    height: 1016px;
+    position: absolute;
+    top: 540px;
+    left: 300px
+}
+.img2{
+    z-index: -1000;
+    width: 866.33px;
+    height: 697.66px;
+    position: absolute;
+    top: 1620px;
+    left: 486px
+}
+/*Bottom Margin*/
+.bottom{
+    color: rgb(255, 204, 204);
+    font-style: italic;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 2400px;
+}

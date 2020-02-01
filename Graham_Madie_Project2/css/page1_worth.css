@@ -1,0 +1,189 @@
+/*Nav Style*/
+body{
+    background-color: rgb(255, 204, 204);
+}
+.container{
+    width: 1664px;
+    margin: 0 auto;
+    height: 100px;
+}
+/*Nav Style*/
+a{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: justify;
+    text-decoration: none;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+ .selectedlink{
+    background-color: white;
+    position: relative;
+    }
+a.e1:hover{
+      background-color: white;
+      position: relative;
+    }
+/*audio positioning*/
+audio{
+    position: relative;
+    top: -460px;
+    left: 730px;
+}
+
+/*Page Title Style*/
+h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 62pt;
+    letter-spacing: 2pt;
+} 
+
+.worth{
+    position: absolute;
+    top: 75px;
+    left: 280px;
+    letter-spacing: 5px;
+}
+.one{
+    font-size: 160pt;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+}
+/*split sentence-constant style*/
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 66pt;
+    color: rgb(255, 0, 0);
+    letter-spacing: 5pt
+}
+.con{
+    position: relative;
+    left: 832px;
+    top: 370px;
+    width: 200px;
+    
+}
+.stant{
+    position: relative;
+    left: 1260px;
+    top: 600px;
+    width: 300px;
+}
+/*a constant need... style*/
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40pt;
+    color: rgb(255, 0, 0);
+    letter-spacing: 1pt;
+    background-color: white;
+}
+
+.aconstant{
+    width: 400px;
+    position: relative;
+    left: 628px;
+    top: -288px;
+}
+.needto{
+    width: 440px;
+    height: 40px;
+    position: relative;
+    left: 100px; 
+    top: 500px
+}
+.proveoneself{
+    text-align: right;
+    width: 540px;
+    position: relative;
+    left: 0;
+    top: 566px;
+    
+}
+
+/*Paragraph Styles*/
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 18pt;
+    line-height: 20pt;
+}
+.intro{
+    position: absolute;
+    top: 125px;
+    left: 540px;
+    background-color:white;
+    width: 490px;
+}
+.background{
+    position: absolute;
+    top: 1770px;
+    left: 870px;
+    background-color:white;
+    width: 710px; 
+    text-align: right;
+}
+.conclude{
+    position: absolute;
+    top:2180px;
+    left: 100px;
+    background-color:white;
+    width: 230px;
+}
+/*button styling*/
+button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27pt;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+    border: 0;
+    background-color: rgb(255, 204, 204);
+    position: relative;
+    top: 500px;
+    left: 1410px
+    
+}
+/*constant repeat styling*/
+.constantrepeat{
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 5pt;
+    width: 140px;
+    position: relative;
+    top: 336px;
+    left: 1428px;
+}
+/*img positioning*/
+.img1{
+    width: 1313.33px;
+    height: 1936px;
+    z-index: -1000;
+    position: absolute;
+    left: 0px;
+    top: 340px
+    
+}
+.constantimgtype{
+    width: 1550.4px;
+    height: 270.4px;
+    position:absolute;
+    top: 700px;
+    left: 66px;
+}
+.bottom{
+    color: rgb(255, 204, 204);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 2460px;
+}

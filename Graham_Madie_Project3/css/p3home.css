@@ -1,0 +1,133 @@
+
+body{ background-color: rgb(255, 255, 153);
+}
+/* div page container w/ maximum width */    
+.page-container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  height: 1px;
+}
+/*Nav Style*/
+a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(255, 204, 51);
+    font-size: 18pt;
+    letter-spacing: 2.5pt;
+    text-decoration: none;
+    font-weight: 600;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: inline-flex;
+    justify-content: space-between;
+    border: solid;
+    border-width: 3pt;
+    border-color: rgb(255, 204, 51);
+    padding: 3px;
+}
+ .selectedlink{
+    color: rgb(204 51 51);
+    position: relative;
+    }
+a.e1:hover{
+      color: rgb(204 51 51);
+      position: relative;
+    }
+/*Img Sizing*/
+img{
+    width: 222.558px;
+    height: 278.198px;
+}
+/*Map Positioning & Styling*/
+.map{
+    position: relative;
+    left: 16px;
+    top: -1340px;
+    width: 920px;
+    height: 487px;
+    border: solid;
+    border-width: 20px;
+    border-color: rgb(255, 204, 51);
+    
+}
+/*Headline 1 Positioning & Styling*/
+h1{ width: 800px;
+    font-family: 'Calistoga', cursive;
+    font-size: 30pt;
+    letter-spacing: 4pt;
+    line-height: 36pt;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+
+}
+.h1outline{
+        color: rgb(255, 255, 153);
+        text-shadow:
+        -1px -1px 0 #333366,
+        1px -1px 0 #333366,
+        -1px 1px 0 #333366,
+        1px 1px 0 #333366;
+}
+.h1solid{
+        color: rgb(51, 51, 102);
+}
+/*Headline 2 Positioning & Styling*/
+h2{ width: 500px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(51, 51, 102);
+    font-size: 16pt;
+    font-weight: 500;
+    letter-spacing: .25pt;
+    line-height: 25pt;
+    font-style: italic;
+    margin: 0px;
+    position: relative;
+    top: -56px;
+    left: 540px;
+}
+/*1*/
+.pic1{
+    position: relative;
+    top: -32px;
+    left: 50px;
+    z-index: -1000;
+    
+}
+.rec1{
+    position: relative;
+    top: 60px;
+    left: -214px; 
+    z-index: -3000;
+}
+/*2*/
+.pic2{
+    position: relative;
+    top: -20px;
+    left: 250px;
+    z-index: -1000;
+    
+}
+.rec2{
+    position: relative;
+    top: -250px;
+    left: 704px; 
+    z-index: -3000;
+}
+/*3*/
+.pic3{
+    position: relative;
+    top: -330px;
+    left: -132px;
+    z-index: -1000;
+    
+}
+.rec3{
+    position: relative;
+    top: -250px;
+    left: 96px; 
+    z-index: -3000;
+}

@@ -1,0 +1,177 @@
+body{
+    background-color: rgb(255, 204, 204);
+}
+.container{
+    width: 1664px;
+    margin: 0 auto;
+    height: 100px;
+}
+/*Nav Style*/
+a{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: justify;
+    text-decoration: none;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+ .selectedlink{
+    background-color: white;
+    position: relative;
+    }
+     a.e1:hover{
+      background-color: white;
+      position: relative;
+    }
+/*audio positioning*/
+audio{
+    position: relative;
+    top: 120px;
+    left: 580px;
+}
+
+/*Page Title Style*/
+h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 62pt;
+    letter-spacing: 2pt;
+} 
+
+.too{
+    position: absolute;
+    top: 75px;
+    left: 440px;
+    letter-spacing: 5px;
+}
+.two{
+    font-size: 160pt;
+    position: absolute;
+    top: 50px;
+    left: 440px;
+}
+/*Are you? Header Styling*/
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40pt;
+    color: rgb(255, 0, 0);
+    letter-spacing: 1pt;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.toomuch{
+    width: 620px;
+    height: 40px;
+    position: relative;
+    left: 440px;
+    top: 440px;
+}
+.toolittle{
+    width: 860px;
+    height: 40px;
+    position: relative;
+    left: 204px;
+    top: 510px;  
+    text-align: right;
+}
+.neverenough{
+    width: 860px;
+    height: 40px;
+    position: relative;
+    left: 440px;
+    top: 580px;  
+}
+/*Animations*/
+ .grow:hover{
+        -webkit-transform: scale(2.0);
+        -ms-transform: scale(2.0);
+        transform: scale(2.0);
+    }
+.shrink:hover{
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
+        transform: scale(.8);
+    }
+.shrink2:hover{
+        -webkit-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(.5);
+    }
+/*Paragraph Styles*/
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 18pt;
+    line-height: 20pt;
+    text-align: right;
+    background-color: white;
+}
+.intro{
+    position: relative;
+    width: 140px;
+    left: 1156px;
+    top: 860px;
+}
+/*Lyric Reference Style*/
+h3{ font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 30pt;
+    color: rgb(255, 0, 0);
+    letter-spacing: 12pt;
+}
+.lyric{
+    position: relative;
+    top: 1140px;
+    left: 204px;
+    width: 800px;
+}
+.a{
+   background-color: white; 
+    width: 1294px;
+    position: relative;
+    top: 1480px;
+    left: 204px;
+}
+/*img positioning*/
+.img1{
+    width: 1576px;
+    margin-top:-12px;
+    height: 2004.4px;
+    position:absolute;
+    z-index: -1000;
+    position: absolute;
+    left: 50px;
+    top: 34px
+    
+}
+.gif{
+    width: 1220px;
+    height: 291px;
+    position:absolute;
+    left: 304px;
+    top: 2520px 
+}
+.insane{
+    width: 1219px;
+    height: 290px;
+    position:absolute;
+    z-index: ;
+    left: 280px;
+    top: 2240px 
+}
+/*Bottom Margin*/
+.bottom{
+    color: rgb(255, 204, 204);
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 3200px;
+}

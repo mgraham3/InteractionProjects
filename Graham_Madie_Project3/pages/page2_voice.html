@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!--Students For a Democratic Society; Page 2: Voice-->
+<html>
+<title>VOICE</title>
+<head>
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>   
+<!--Triangle Code-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.triangle-right {
+	width: 10;
+	height: 10;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #FFCC33;
+	border-bottom: 10px solid transparent;
+}
+</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/page2_voice.css">
+  <link href="https://fonts.googleapis.com/css?family=Calistoga|IBM+Plex+Sans:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="page-container">
+<!--Navigation-->
+<nav class="adiv">
+    <a class="e1" href="../p3home.html">HOME</a>
+    <a class="e1" href="../pages/page1_organize.html">ORGANIZE</a>
+    <a class="selectedlink" href="../pages/page2_voice.html">VOICE!</a>
+    <a class="e1" href="../pages/page3_report.html">REPORT</a>
+    <a class="e1" href="../pages/page4_create.html">CREATE</a>
+    <a class="e1" href="../pages/page5_fight.html">FIGHT</a>
+</nav>
+<!--Headlines & Page Explanation-->
+<section>
+    <h1 class="h1outline">HEED THE CALL</h1>
+    <h1 class="h1solid">USE YOUR VOICE</h1>
+    <h2>What will you speak out for today? <br> Racial injustice? Economic ineqaulity? <br> Anti-war sentiment? Unfair U of M policy?</h2>
+</section>
+<!--Record Directions-->
+<p>!! Click here to send <br> &nbsp;&nbsp; <i>your</i> message to <br> &nbsp;&nbsp; <i>your</i> reps or the <br> &nbsp;&nbsp; U of M admin !!</p>
+<!--Record Module-->
+<div class="recordmodule">
+    <h3 class="record">RECORD</h3>
+    <!--Record Module Circle-->
+    <svg class="circle">
+        <circle cx="18.125px" cy="18.125px" r="9.0625px" fill="rgb(204, 51, 51)" />
+    </svg>
+    <!--Record Module Square-->
+    <svg class="square" width="16px" height="16px">
+        <rect width="300" height="100" style="fill: rgb(51, 51, 102)" />
+    </svg>
+    <!--Record Module Triangle-->
+        <div class="triangle triangle-right"></div>
+    <!--Module-->
+    <div>
+        <button class="send" onclick="myFunction()">SEND</button>
+    </div>
+    <script>
+function myFunction() {
+  alert("Your voice has been heard: messsage sent!");
+}
+</script>
+</div>
+<!--Megaphone-->
+<img class="megaphone" src="../images/page2megaphone-01.png">
+<!--graphic-->
+<img class="graphic" src="../images/page2graphic.png">
+</div>    
+</body>
+</html>

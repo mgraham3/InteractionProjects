@@ -1,0 +1,183 @@
+body{
+    background-color: rgb(255, 204, 204); 
+}
+.container{
+    width: 1664px;
+    margin: 0 auto;
+}
+/*Nav Style*/
+a{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: justify;
+    text-decoration: none;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+ .selectedlink{
+    background-color: white;
+    position: relative;
+    }
+a.e1:hover{
+      background-color: white;
+      position: relative;
+    }
+/*Page Title Style*/
+h1{
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 62pt;
+    letter-spacing: 2pt;
+} 
+
+.bitch{
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    letter-spacing: 5px;
+}
+.three{
+    font-size: 160pt;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+/*audio positioning*/
+audio{
+    position: relative;
+    top: -980px;
+    left: 600px;
+}
+/*Hashtags*/
+h6{font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 24pt;
+    font-weight: 500;
+    width: 360px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+.main {
+  width: 1664px;
+  height: 1040px;
+  position: relative;
+  top: -400px;
+}
+
+.box {
+  width: auto;
+  height: auto;
+  position: absolute;
+  /* parent width - box width */
+}
+/*She's the & with statement*/
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 60pt;
+    font-weight: 500;
+    width: 400px;
+}
+.shesthe{
+    position: relative;
+    top: 240px;
+    left: 560px;
+}
+.withthe{
+    position: relative;
+    top: 1580px;
+    left: 640px;
+}
+.loudmouth{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 80pt;
+    font-weight: 600;
+    width: 700px;
+    position: relative;
+    top: 1480px;
+    left: 480px;
+}
+/*Paragraph Styles*/
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 18pt;
+    line-height: 20pt;
+    text-align: right;
+    background-color: white;
+    width: 1020px;
+    position: relative;
+    top: 1460px;
+    left: 320px;
+}
+/*"How is..." statement*/
+h4{font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 33pt;
+    line-height: 38pt;
+    background-color: white;
+    font-weight: 500;
+    width: 690px;
+    margin: 0;
+    padding: 0;
+}
+.confidence{
+    position: relative;
+    top: 210px;
+    left: 520px;
+    width: 760px;
+}
+.up{
+    position: relative;
+    top: 224px;
+    left: 560px;
+    width: 840px; 
+}
+.man{
+    position: relative;
+    top: 238px;
+    left: 520px;
+}
+.womans{
+    position: relative;
+    top: 252px;
+    left: 560px;
+    width: 760px;
+}
+/*he's the boss statement*/
+h3{font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 40pt;
+    line-height: 38pt;
+    background-color: white;
+    font-weight: 500;
+    width: 1000px;
+    position: relative;
+    top: 1400px;
+    left: 560px;
+}
+/*img styling*/
+img{
+    z-index: -1000;
+    width: 1576px;
+    height: 1537.6px;
+    position: absolute;
+    top: 580px;
+    left: 16px
+}
+/*Bottom Margin*/
+.bottom{
+    color: rgb(255, 204, 204);
+    font-style: italic;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 2640px;
+}

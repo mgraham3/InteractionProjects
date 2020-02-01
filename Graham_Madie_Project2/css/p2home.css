@@ -1,0 +1,141 @@
+/*Nav Style*/
+body{
+    background-color: rgb(255, 204, 204);
+    height: 1800px;
+}
+.container{
+    width: 1664px;
+    margin: 0 auto;
+    height: 100px;
+}
+/*Nav Style*/
+a{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: justify;
+    text-decoration: none;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.selectedlink{
+    background-color: white;
+    position: relative;
+    }
+a.e1:hover{
+      background-color: white;
+      position: relative;
+    }
+/*audio positioning*/
+audio{
+    position: relative;
+    top: 120px;
+    left: 440px;
+}
+/*Headline Styling*/
+.what{
+    position: relative;
+    width: 400px;
+    top: 20px;
+    left: 440px;
+}
+.happens{
+    position: relative;
+    width: 600px;
+    top: -110px;
+    left: 560px;
+}
+.when{
+    position: relative;
+    width: 410px;
+    top: -234px;
+    left: 704px;
+}
+.a{
+    position: relative;
+    width: 80px;
+    top: -368px;
+    left: 1060px;
+}
+.womanspeaks{
+    position: relative;
+    width: px;
+    top: -520px;
+    left: 340px;
+}
+.her{
+    position: relative;
+    width: 280px;
+    top: -669px;
+    left: 780px;
+}
+.mind{
+    position: relative;
+    width: 440px;
+    top: -790px;
+    left: 880px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 180pt;
+    color: rgb(255, 0, 0);
+    letter-spacing: 1pt;
+    font-style: italic;
+    letter-spacing: 5pt;
+    width: 980px;
+    line-height: 140pt;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 100pt;
+    color: rgb(255, 0, 0);
+}
+/*Case Styling*/
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 40pt;
+    color: rgb(255, 0, 0);
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 00;
+    font-size: 48pt;
+    color: rgb(255, 0, 0);
+}
+.acase{
+    position: relative;
+    width: 500px;
+    top: -900px;
+    left: 800px;
+}
+.taylorswift{
+    position: relative;
+    width: 480px;
+    top: -980px;
+    left: 828px;
+}
+.para{
+    position: relative;
+    width: 20px;
+    top: -1130px;
+    left: 1266px;
+    height: 10px;
+}
+/*Bottom Margin*/
+.bottom{
+    color: rgb(255, 204, 204);
+    font-style: italic;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 2800px;
+}

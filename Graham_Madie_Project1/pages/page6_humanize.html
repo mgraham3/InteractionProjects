@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--Designed by Madeleine Graham-->
+<!--Empathize; Page 6: Humanize-->
+<html>
+<head>
+<style>
+    body{
+        background-color: rgb(204, 153, 51);
+    }
+    div{
+        position:relative
+    }
+/* image edits */
+    .imgpeople{
+        width: 1378px;
+        height: 784px;
+        position: absolute;
+        left: 302px;
+        top: 220px;
+    }   
+/* h1 specific edits */
+    .h1empathy{
+        font-family: courier new;
+        font-size: 18pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 4pt;
+        font-weight: 1000;
+        position: absolute;
+        top: 47.45px;
+        left: 185px;
+    }
+    .h1love{
+        font-family: trebuchet ms;
+        font-size: 16pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 4pt;
+        font-weight: 1000;
+        position: absolute;
+        top: 50px;
+        left: 75px;
+    }
+    .h1humanity{
+        font-family: trebuchet ms;
+        font-size: 16pt;
+        color: rgb(255, 255, 204);
+        letter-spacing: 4pt;
+        font-weight: 1000;
+        position: absolute;
+        top: 50px;
+        left: 534px;
+    }
+/* lyrics stylization */
+    .lyrics{
+        color: rgb(102, 51, 0);
+        font-family: trebuchet ms;
+        font-size: 12pt;
+        line-height: 17pt;
+        letter-spacing: .75pt;
+        position: absolute;
+        top: 150px;
+        left: 105px;
+    }
+    .cagetheelephant{
+        color: rgb(102, 51, 0);
+        font-family: trebuchet ms;
+        font-size: 14pt;
+        letter-spacing: .75pt;
+        position: absolute;
+        top: 237px;
+        left: 100px;
+    }
+    .lovestheonlyway{
+        color: rgb(102, 51, 0);
+        font-family: trebuchet ms;
+        font-size: 12pt;
+        letter-spacing: .75pt;
+        position: absolute;
+        top: 265px;
+        left: 110px;
+    }
+    .quotation1{
+        color: rgb(153,0,51);
+        font-family: trebuchet ms;
+        font-size: 40pt;
+        position: absolute;
+        top: 105px;
+        left: 70px;
+    }
+    .quotation2{
+        color: rgb(153,0,51);
+        font-family: trebuchet ms;
+        font-size: 40pt;
+        position: absolute;
+        top: 110pt;
+        left: 312px;
+    }
+/* emphasize/humanize type over image*/
+    .humanize{
+        font-family: courier new;
+        color: rgb(255, 255, 204);
+        font-style: italic;
+        font-size: 26pt;
+        letter-spacing: 18pt;
+        font-weight: 1000;
+        position: absolute;
+        top: 500px;
+        left: 420px;
+        z-index: 1000
+    }
+    .empathize{
+        font-family: courier new;
+        color: rgb(255, 255, 204);
+        font-style: italic;
+        font-size: 26pt;
+        letter-spacing: 18pt;
+        font-weight: 1000;
+        position: absolute;
+        top: 595px;
+        left: 1100px;
+        z-index: 1000;
+    }
+    .humanizediv{
+        background-color: rgb(204, 153, 51);
+        height: 20px;
+        width: 345px;
+    }
+    .empathizediv{
+        background-color: rgb(204, 153, 51);
+        height: 20px;
+        width: 390px;   
+    }
+    /* nav style */
+     .home{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(153,0,51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 445px;
+    }
+    .envy{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(153,0,51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 510px;
+    }
+    .ignorance2{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(153,0,51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 595px;
+    }
+     .fear{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(153,0,51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 745px;
+    }
+    .apathy{
+         font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(153,0,51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 400px;
+        left: 420px; 
+        position: absolute;
+        top: 15px;
+        left: 835px;
+    }
+        .empathizehumanize{
+        font-family: courier new;
+        font-size: 14pt;
+        text-decoration: none;
+        color: rgb(153,0,51);
+        letter-spacing: 1pt;
+        font-weight: 200;
+        position: absolute;
+        top: 15px;
+        left: 975px;
+    }
+    .selectedlink{
+        text-decoration: underline;
+        text-decoration-color: rgb(153,0,51);  
+    }
+     a.e1:hover{
+        text-decoration: line-through;
+        text-decoration-color: rgb(153,0,51); 
+    }
+    a.e2:hover{
+        text-decoration: underline;
+        text-decoration-color: rgb(153,0,51); 
+    }
+    .navdiv{
+        width: 1000px;
+        position: absolute;
+        top: 10px;
+    }
+/*Animation*/
+ .grow:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+</style>
+</head>
+<title>empathize, humanize</title>
+<body>
+<!--love is empathy, main phrase div-->
+<div>
+<h1 class="h1love">love is</h1>
+<h1 class="h1empathy">EMPATHY / EMPATHY</h1>
+<h1 class="h1humanity">is our humanity</h1>
+</div>
+<!--Cage the Elephant Song Lyrics Div-->
+<div>
+<p class="quotation1">&#8220;</p>
+<p class="lyrics">It's not the wave that<br> moves the sea / But the <br> sea that moves the wave</p>
+<p class="cagetheelephant">-Cage the Elephant,</p>
+<p class="quotation2">&#x201D;</p>
+<p class="lovestheonlyway">"Love's the Only Way"</p>
+</div>
+<!--words overlapping image div-->
+<div>
+<h2 class="humanize humanizediv">HUMANIZE</h2>
+    <h2 class="empathize empathizediv">EMPATHIZE</h2>
+</div>
+<a href="https://www.youtube.com/watch?v=1XKOREmeskA">
+<img class="imgpeople grow" src="../images/page6_empathize_coupleswim-01.png" alt="A couple swimming in water surroanded by squiggly line graphic"></a>
+<!--Navigation Text-->
+<div class="navdiv">
+<a class="envy e1" href="page%202_envy.html">/ ENVY /</a>
+<a class="ignorance2 e1" href="page3_ignorance.html"> &nbsp; IGNORANCE /</a> 
+<a class="fear e1" href="page4_fear.html"> &nbsp; FEAR /</a>
+<a class="apathy e1" href="page5_apathy.html"> &nbsp; APATHY /</a>
+<a class="empathizehumanize selectedlink e2" href="page6_humanize.html">EMPATHIZE,HUMANIZE</a>
+<a class="home e2" href="p1home.html">HOME</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+
+body{ background-color: rgb(255, 255, 153);
+}
+/* div page container w/ maximum width */    
+.page-container {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  height: 1px;
+}
+/*Nav Style*/
+a{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(255, 204, 51);
+    font-size: 18pt;
+    letter-spacing: 2.5pt;
+    text-decoration: none;
+    font-weight: 600;
+}
+.adiv{
+    width: 100%;
+    height: 34px;
+    display: inline-flex;
+    justify-content: space-between;
+    border: solid;
+    border-width: 3pt;
+    border-color: rgb(255, 204, 51);
+    padding: 3px;
+}
+ .selectedlink{
+    color: rgb(204 51 51);
+    position: relative;
+    }
+a.e1:hover{
+      color: rgb(204 51 51);
+      position: relative;
+    }
+/*Img Sizing*/
+img{
+    width: 222.558px;
+    height: 278.198px;
+}
+/*Map Positioning & Styling*/
+.map{
+    position: relative;
+    left: 16px;
+    top: -1340px;
+    width: 920px;
+    height: 487px;
+    border: solid;
+    border-width: 20px;
+    border-color: rgb(255, 204, 51);
+    
+}
+/*Headline 1 Positioning & Styling*/
+h1{ width: 500px;
+    font-family: 'Calistoga', cursive;
+    font-size: 30pt;
+    letter-spacing: 4pt;
+    line-height: 36pt;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+
+}
+.h1outline{
+        color: rgb(255, 255, 153);
+        text-shadow:
+        -1px -1px 0 #333366,
+        1px -1px 0 #333366,
+        -1px 1px 0 #333366,
+        1px 1px 0 #333366;
+}
+.h1solid{
+        color: rgb(51, 51, 102);
+}
+/*Headline 2 Positioning & Styling*/
+h2{ width: 500px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(51, 51, 102);
+    font-size: 16pt;
+    font-weight: 500;
+    letter-spacing: .25pt;
+    line-height: 25pt;
+    font-style: italic;
+    margin: 0px;
+    position: relative;
+    top: -56px;
+    left: 460px;
+}
+/*Headline 3 Positioning & Styling*/
+h3{
+    font-family: 'Calistoga', cursive;
+    font-size: 22pt;
+    letter-spacing: 3pt;
+    line-height: 24pt;
+    margin: 0px;
+      color: rgb(255, 255, 153);
+        text-shadow:
+        -1px -1px 0 #333366,
+        1px -1px 0 #333366,
+        -1px 1px 0 #333366,
+        1px 1px 0 #333366;
+}
+/*Paragraph Styling*/
+p{  width: 500px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: rgb(51, 51, 102);
+    font-size: 12pt;
+    font-weight: 400;
+    letter-spacing: .25pt;
+    line-height: 14pt;
+    margin: 0px;
+}
+/*Diag Styling & Positioning*/
+.diag{
+    width: 260px; 
+    height: 0px;
+    position: relative;
+    top: 0px;
+    left: 12px;
+    
+}
+.diagpic{
+    position: relative;
+    top: -80px;
+    left: 50px;
+    z-index: -1000;
+    
+}
+.diagtype{
+   position: relative;
+    top: 296px;
+    left: 48px;
+    width: 200px;
+}
+.diagrec{
+    position: relative;
+    top: 6px;
+    left: -214px; 
+    z-index: -3000;
+}
+/*Law Styling & Positioning*/
+.law{
+    width: 260px; 
+    height: 344px;
+    position: relative;
+    top: -363px;
+    left: 344px;
+    
+}
+.lawpic{
+    position: relative;
+    top: -788px;
+    left: 380px;
+    z-index: -1000;
+    
+}
+.lawtype{
+   position: relative;
+    top: -410px;
+    left: 398px;
+    width: 200px;
+}
+.lawrec{
+    position: relative;
+    top: -702px;
+    left: 116px; 
+    z-index: -3000;
+}
+/*Union Styling & Positioning*/
+.union{
+    width: 260px; 
+    height: 344px;
+    position: relative;
+    top: -1068px;
+    left: 698px;
+    
+}
+.unionpic{
+    position: relative;
+    top: -1496px;
+    left: 472px;
+    z-index: -1000;
+    
+}
+.uniontype{
+   position: relative;
+    top: -1118px;
+    left: 742px;
+    width: 200px;
+}
+.unionrec{
+    position: relative;
+    top: -1408px;
+    left: 698px; 
+    z-index: -3000;
+}
