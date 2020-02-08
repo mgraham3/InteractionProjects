@@ -1660,6 +1660,557 @@ text-align: center;s
 .inlove{
     color: ghostwhite;
 }
+/* Week 4 Styles: Animation & FadeOut Exp.1 */
+.divbackgroundfadeout{
+    background-color: rgb(177, 229, 255);
+}
+.beauty{
+    font-family: 'Croissant One', cursive;
+    letter-spacing: 1pt;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.notfleeting{
+    font-family: 'Croissant One', cursive;
+    letter-spacing: .5pt;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    line-height: 28pt;
+}
+.fleeting{
+    font-style: italic;
+    width: 200px;
+    letter-spacing: 1.5pt;
+}
+.ever{
+    font-family: 'Croissant One', cursive;
+    letter-spacing: 2pt;
+    color: white;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+}
+.changing{
+    font-family: 'Croissant One', cursive;
+    letter-spacing: 2pt;
+    color: white;
+    position: absolute;
+    top: 220px;
+    left: 120px;
+}
+.everywhere{
+    font-family: 'Croissant One', cursive;
+    letter-spacing: 6pt;
+    color: white;
+    position: relative;
+    top: 260px;
+    left: 30px;
+}
+.skygif{
+    position: absolute;
+    top: 0px;
+    opacity: .25; 
+    z-index: -1000;
+}
+/* Week 4 Styles: Animation & FadeTo Exp.2 */
+.divbackgroundfadeto{
+    background-color: lemonchiffon;
+    overflow: scroll; 
+}
+.fishimg1{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+.fishimg2{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    z-index: -1000;
+} 
+.fishimg3{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 210px;
+    left: 180px;
+    z-index: -1000;
+}
+.fishimg4{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    z-index: -1000;
+}
+.ebb{
+    font-family: 'Shrikhand', cursive;
+    font-size: 28px;
+    letter-spacing: 2pt;
+    line-height: 26px;
+    color: transparent;
+    -webkit-text-stroke: .15px coral;
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    z-index: 1000;
+}
+.wetake{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 6pt;
+    font-style: italic;
+    letter-spacing: 6pt;
+    line-height: 10pt;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    z-index: 1000;
+    text-align: right;
+    color: turquoise;
+}
+.letus{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    letter-spacing: 1.5pt;
+    color: coral;
+    position: absolute;
+    top: 100px;
+    z-index: 1000;
+    position: absolute;
+    top: 176px;
+    left: 10px;
+}
+.inner{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    letter-spacing: 2pt;
+    color: transparent;
+    -webkit-text-stroke: .75px coral;
+    line-height: 14pt;
+}
+.me1{
+    z-index: -2000;
+}
+/* Week 4 Styles: Animation & FadeIn Exp.3 */
+.divbackgroundexp4{
+    background-color: rgb(153, 204, 204);
+}
+.sunflower{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top: 24px;
+    left: 4px;
+    z-index: -1000;
+    opacity: .95;
+}
+.everyone{
+    font-family: 'Chicle', cursive;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 18pt;
+    letter-spacing: 1.5pt;
+    position: absolute;
+    top: 10px;
+    left: 44px;
+    color: white; 
+    font-style: italic;
+}
+.tome{
+    font-family: 'Chicle', cursive;
+    font-size: 18pt;
+    font-weight: 300;
+    letter-spacing: 1.25pt;
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    font-weight: 400;
+    color: white;
+    
+}
+.sunflower2{
+    font-family: 'Chicle', cursive;
+    font-weight: 700;
+    font-size: 40pt;
+    font-style: italic;
+    position: absolute;
+    top: 128px;
+    left: 30px;
+    letter-spacing:6pt;
+    color: white;
+}
+.quote1{
+   font-family: 'Chicle', cursive;
+    font-size: 70pt;
+    color: rgb(255, 204, 51);
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    z-index: -1000;
+}
+.quote2{
+    font-family: 'Chicle', cursive;
+    font-size: 70pt;
+    color: rgb(255, 204, 51);
+    position: absolute;
+    top: 160px;
+    left: 298px;
+    z-index: -1000;
+}
+
+/* Week 4 Styles: Animation & Delay Exp.4 */
+.divbackgrounddelay{
+    background-color: rgb(255, 156, 43);
+    overflow: scroll;
+}
+.lifeis{
+    font-family: 'Major Mono Display', monospace;
+    color: rgb(56, 92, 255);
+    font-size: 60pt;
+    letter-spacing: 3.5pt;
+    font-weight: 400;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.value{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 110px;
+    left: 175px;
+    width: 120px;
+}
+.themade{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 234px;
+    left: 152px;
+    width: 170px;
+    text-align: right;
+}
+.theloud{
+     font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 460px;
+    left: 152px;
+    width: 170px;
+    text-align: right;
+}
+.outspoken{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 748px;
+    left: 156px;
+    width: 170px;
+}
+.scroll{
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    line-height: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 6px;
+    left: -52px;
+    width: 170px;
+    text-align: right;
+}
+.circle1{
+    position: absolute;
+    top: 20px;
+    left: -16px; 
+    z-index: -1000;
+    
+}
+.circle2{
+    position: absolute;
+    top: 30px;
+    left: 166px;
+    z-index: -1000;
+}
+.circle3{
+    position: absolute;
+    top: 160px;
+    left: 160px; 
+    z-index: -1000;
+}
+.circle4{
+    position: absolute;
+    top: 210px;
+    left: 28px; 
+    z-index: -1000;
+}
+
+/* Week 4 Styles: Animation & Scale Exp.5 */
+.divbackgroundscale{
+    background-color: rgb(255, 116, 91);
+}
+.heyu{
+    font-family: 'Cabin', sans-serif;
+    color: lightyellow;
+    font-size: 20pt;
+    font-weight: 700;
+    letter-spacing: 3pt;
+    position: absolute;
+    top: 11px;
+    left: 100px;
+}
+.swim{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 18pt;
+    font-weight: 900;
+    letter-spacing: 3pt;
+    position: absolute;
+    top: 230px;
+    left: 28px;
+    color: lightyellow;
+}
+.dory{
+    position: absolute;
+    top: -48px;
+    left: 16px;
+    opacity: .75;
+}
+.dory2{
+    position: absolute;
+    top: 179px;
+    left: 114px;
+    opacity: .75;
+}
+
+/* Week 4 Styles: Animation & String Exp.6 */
+.divbackgroundstring{
+    background-color: rgb(153, 204, 209);
+}
+.bubble1{
+    position: absolute;
+    top: 140px;
+    left: 250px;
+    z-index: -10000;
+    animation: float 4s ease-in-out infinite;
+}
+.bubble2{
+    position: absolute;
+    top: -4px;
+    left: 4px; 
+    z-index: -10000;
+    animation: float 4s ease-in-out infinite;
+}
+.bubble3{
+    position: absolute;
+    top: 240px;
+    left: 130px;
+    z-index: -10000;
+    animation: float 4s ease-in-out infinite;
+}
+.bubble4{
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    z-index: -10000;
+    animation: float 6s ease-in-out infinite;
+}
+.bubble5{
+    position: absolute;
+    top: 240px;
+    left: 230px; 
+    z-index: -10000;
+    animation: float 6s ease-in-out infinite;
+}
+.bubble6{
+    position: absolute;
+    top: 88px;
+    left: -10px;
+    z-index: -10000;
+    animation: float 6s ease-in-out infinite;
+}
+.bubble7{
+    position: absolute;
+    top: 28px;
+    left: 240px; 
+     z-index: -10000;
+    animation: float 2s ease-in-out infinite;
+}
+.bubble8{
+    position: absolute;
+    top: 222px;
+    left: 20px; 
+    z-index: -10000;
+    animation: float 2s ease-in-out infinite;
+}
+.bubble9{
+    position: absolute;
+    top: 100px; 
+    left: 100px;
+    z-index: -10000;
+    animation: float 6s ease-in-out infinite;
+    
+}
+.happyfish{
+    font-family: 'Kreon', serif;
+    letter-spacing: 1pt;
+    font-weight: 500;
+    color: rgb(255, 225, 91);
+    position: absolute;
+    top: 170px;
+    left: 14px;
+}
+/*Float animation by Mario Duarte https://codepen.io/MarioDesigns/pen/woJgeo*/
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+
+/* Week 4 Styles: Animation & Subtle Exp.7 */
+.ink{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1000;
+}
+.yousee{
+    font-family: 'Eczar', serif;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.5pt;
+    position: absolute;
+    top: 100px;
+    left: 60px
+}
+/* Week 4 Styles: Animation & Intense Exp.8 */
+.divbackgroundsubtle{
+    background-color: black;
+}
+.ugly{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 136pt;
+    position: absolute;
+    line-height: 160px;
+    text-align: center;
+    color: red;
+    animation: shake 0.25s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+.ugly2{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 136pt;
+    position: absolute;
+    line-height: 160px;
+    text-align: center;
+    color: darkred;
+    animation: shake 0.25s;
+    z-index: -1000;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 4px;
+    left: 14px;
+}
+.truth{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 8pt;
+    position: absolute;
+    letter-spacing: 2pt;
+    font-weight: 400;
+    line-height: 160px;
+    text-align: center;
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    top: 128px;
+    left: 110px;
+}
+.beauty2{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 8pt;
+    position: absolute;
+    letter-spacing: 2pt;
+    font-weight: 400;
+    line-height: 160px;
+    text-align: center;
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    top: -6px;
+    left: 278px;
+}
+/*from W3 Schools*/
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* Week 4 Styles: Animation & Chaotic Exp.9 */
+.divbackgroundintense{
+    background-color: rgb(255, 217, 211);
+}
+.fishsize{
+    width: 83.5px;
+    height: 42px;
+}
+.plentyfish{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: .75pt;
+    font-size: 14pt;
+    color: white;
+    position: absolute;
+    top: 310px;
+    left: 10px;
+}
 
 /*ANIMATIONS*/
 /*week2- experiment 10: Space & Position animation*/
