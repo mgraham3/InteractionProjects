@@ -228,8 +228,100 @@ $(document).ready(function(){
         .animate({top: '40px', fontSize: '40pt'})
 });
 
+//Week 5 Jquery: Interaction & Click Exp.1//
+$(document).ready(function(){
+    $(".homophobia").hide();
+});
+$(".hidebutton").click(function () {
+    $(".homophobia").fadeIn(2000);
+});
 
+//Week 5 Jquery: Interaction & Color Exp.2//
+$(document).ready(function(){
+    $(".apology1, .apology2, .apology3, .apology4, .apology5, .ally, .learnmore").hide();
+});
+$(".pasteldiv1").click(function () {
+    $(".apology1").fadeIn(1000);
+});
+$(".pasteldiv2").click(function () {
+    $(".apology2").fadeIn(1000);
+});
+$(".pasteldiv3").click(function () {
+    $(".apology3").fadeIn(1000);
+});
+$(".pasteldiv4").click(function () {
+    $(".apology4").fadeIn(1000);
+});
+$(".pasteldiv5").click(function () {
+    $(".apology5").fadeIn(1000);
+});
+$(".pasteldiv6").click(function () {
+    $(".ally, .learnmore").fadeIn(1000);
+});
 
+//Week 5 Jquery: Interaction & mouse Exp.3//
+$(document).ready(function(){
+    $(".church2, .forgiveness").hide();
+});
+$(".enter").mouseenter(function () {
+    $(".enter").fadeOut(3000);
+    $(".church1").fadeOut(3000);
+    $(".church2").fadeIn(1000);
+    $(".forgiveness").fadeIn(1000);
+});
 
+//Week 5 Jquery: Interaction & change css Exp.4//
+$(document).ready(function(){
+    $(".comes4, .intime4").hide();
+});
+$(".progress4").click(function () {
+    $(".progress4").addClass("progressredorange");
+    $(".comes4").fadeIn(1000);
+});
+$(".comes4").click(function () {
+    $(".comes4").addClass("progressredorange");
+    $(".intime4").fadeIn(1000);
+    $(".intime4").addClass("progressredorange");
+});
 
+//Week 5 Jquery: Interaction & change css Exp.5//
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
 
+//Week 5 Jquery: Interaction & Overwhelm Exp.7//
+$(document).ready(function(){
+  $(".bibleverses1, .bibleverses2, .bibleverses3, .bibleverses4, .bibleverses5").click(function(){
+    $(".bibleverses1, .bibleverses2, .bibleverses3, .bibleverses4, .bibleverses5").fadeOut(2000);
+  });
+});
+
+//Week 5 Jquery: Interaction & Minimal Exp.8//
+$(document).ready(function(){
+    $(".eletrump, .dontbe, .elecircle").hide();
+});
+$(document).ready(function(){
+  $(".divbackgroundminimal").click(function(){
+    $(".eletrump, .dontbe, .elecircle").fadeIn(2000);
+  });
+});
+
+//Week 5 Jquery: Interaction & Opacity Exp.9//
+$(document).ready(function(){
+    $(".weallow").hide();
+});
+$(".smile1").click(function () {
+    $(".smile1").fadeTo(500, .25);
+});
+$(".smile2").click(function () {
+    $(".smile2").fadeTo(500, .25);
+});
+$(".smile3").click(function () {
+    $(".smile3").fadeTo(500, .25);
+});
+$(".smile4").click(function () {
+    $(".smile4").fadeTo(500, .25);
+    $(".weallow").fadeIn(500)
+});
