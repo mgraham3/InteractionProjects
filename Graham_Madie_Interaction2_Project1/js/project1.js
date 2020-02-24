@@ -3,7 +3,7 @@
 $(document).ready(function(){
     $(".notfleeting").delay(1000).fadeOut("50000");
 });
-//ever animation to top//
+//ever animation to top//ss
 $(document).ready(function(){
     $('.ever')
         .delay(500)
@@ -54,7 +54,7 @@ $(document).ready(function(){
     $(".lifeis")
         .hide()
         .delay(1000)
-        .fadeIn(1000)
+        .fadeIn(1000);
 });
 
 //Week 4 Jquery: Animation & Scale Exp.5//
@@ -325,3 +325,319 @@ $(".smile4").click(function () {
     $(".smile4").fadeTo(500, .25);
     $(".weallow").fadeIn(500)
 });
+
+//Week 6 Jquery: Draw & SVG Exp.1//
+
+$(document).ready(function(){
+    $(".boo").hide().fadeIn(10000).fadeOut(2000);
+});
+$(document).ready(function(){
+    $(".aghost").hide().fadeIn(10000).fadeOut(2000);
+});
+
+//Week 6 Jquery: Draw & Canvas Exp.2//
+//Glowing Orb code from https://codepen.io/tonyism/pen/hIKHe//
+window.onload = function(){
+	var canvas = document.getElementById("myCanvas");
+	var ctx = canvas.getContext("2d");
+	
+	//Make the canvas occupy the full page
+	var W = window.innerWidth, H = window.innerHeight;
+	canvas.width = W;
+	canvas.height = H;
+	
+	var particles = [];
+	var mouse = {};
+	
+	//Lets create some particles now
+	var particle_count = 50;
+	for(var i = 0; i < particle_count; i++)
+	{
+		particles.push(new particle());
+	}
+	
+	//finally some mouse tracking
+	canvas.addEventListener('mousemove', track_mouse, false);
+	
+	function track_mouse(e)
+	{
+		//since the canvas = full page the position of the mouse 
+		//relative to the document will suffice
+		mouse.x = e.pageX;
+		mouse.y = e.pageY;
+	}
+	
+	function particle()
+	{
+		//speed, life, location, life, colors
+		//speed.x range = -2.5 to 2.5 
+		//speed.y range = -15 to -5 to make it move upwards
+		//lets change the Y speed to make it look like a flame
+		this.speed = {x: -2.5+Math.random()*5, y: -15+Math.random()*10};
+		//location = mouse coordinates
+		//Now the flame follows the mouse coordinates
+		if(mouse.x && mouse.y)
+		{
+			this.location = {x: mouse.x, y: mouse.y};
+		}
+		else
+		{
+			this.location = {x: W/2, y: H/2};
+		}
+		//radius range = 10-30
+		this.radius = 10+Math.random()*20;
+		//life range = 20-30
+		this.life = 20+Math.random()*10;
+		this.remaining_life = this.life;
+		//colors
+		this.r = Math.round(Math.random()*255);
+		this.g = Math.round(Math.random()*255);
+		this.b = Math.round(Math.random()*255);
+	}
+	
+	function draw()
+	{
+		//Painting the canvas black
+		//Time for lighting magic
+		//particles are painted with "lighter"
+		//In the next frame the background is painted normally without blending to the 
+		//previous frame
+		ctx.globalCompositeOperation = "source-over";
+		ctx.fillStyle = "black";
+		ctx.fillRect(0, 0, W, H);
+		ctx.globalCompositeOperation = "lighter";
+		
+		for(var i = 0; i < particles.length; i++)
+		{
+			var p = particles[i];
+			ctx.beginPath();
+			//changing opacity according to the life.
+			//opacity goes to 0 at the end of life of a particle
+			p.opacity = Math.round(p.remaining_life/p.life*100)/100
+			//a gradient instead of white fill
+			var gradient = ctx.createRadialGradient(p.location.x, p.location.y, 0, p.location.x, p.location.y, p.radius);
+			gradient.addColorStop(0, "rgba("+p.r+", "+p.g+", "+p.b+", "+p.opacity+")");
+			gradient.addColorStop(0.5, "rgba("+p.r+", "+p.g+", "+p.b+", "+p.opacity+")");
+			gradient.addColorStop(1, "rgba("+p.r+", "+p.g+", "+p.b+", 0)");
+			ctx.fillStyle = gradient;
+			ctx.arc(p.location.x, p.location.y, p.radius, Math.PI*2, false);
+			ctx.fill();
+			
+			//lets move the particles
+			p.remaining_life--;
+			p.radius--;
+			p.location.x += p.speed.x;
+			p.location.y += p.speed.y;
+			
+			//regenerate particles
+			if(p.remaining_life < 0 || p.radius < 0)
+			{
+				//a brand new particle replacing the dead one
+				particles[i] = new particle();
+			}
+		}
+	}
+	
+	setInterval(draw, 30);
+}
+
+//Week 6 Jquery: Generate & Random Exp.4//
+function myFunction() {
+  var x = document.getElementById("randomdate")
+  x.innerHTML = Math.floor((Math.random() * 100) + 1);
+}
+
+//Week 6 Jquery: Generate & Wildcard Exp.6//
+//Code found on https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php//
+   function display_random_image() 
+{
+     var theImages = [{
+        src: "../images/week6-exp6-ghost1.jpg",
+        width: "350",
+        height: "350",
+    }, {
+        src: "../images/week6-exp6-ghost2.jpg",
+        width: "350",
+        height: "350",  
+    }, {
+        src: "../images/week6-exp6-ghost3.jpg",
+        width: "350",
+        height: "350",
+    }, {
+        src: "../images/week6-exp6-ghost4.jpg",
+        width: "350",
+        height: "350",
+    },
+                      {
+        src: "../images/week6-exp6-ghost4.jpg",
+        width: "350",
+        height: "350",
+    },
+                     ];
+    
+    var preBuffer = [];
+    for (var i = 0, j = theImages.length; i < j; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = theImages[i].src;
+        preBuffer[i].width = theImages[i].width;
+        preBuffer[i].height = theImages[i].height;
+    }
+   
+// create random image number
+  function getRandomInt(min,max) 
+    {
+      //  return Math.floor(Math.random() * (max - min + 1)) + min;
+    
+imn = Math.floor(Math.random() * (max - min + 1)) + min;
+    return preBuffer[imn];
+    }  
+
+// 0 is first image,   preBuffer.length - 1) is  last image
+  
+var newImage = getRandomInt(0, preBuffer.length - 1);
+ 
+// remove the previous images
+var images = document.getElementsByTagName('img');
+var l = images.length;
+for (var p = 0; p < l; p++) {
+    images[0].parentNode.removeChild(images[0]);
+}
+// display the image   
+//document.body.append(newImage);
+//}
+$(".divrelative").append(newImage);
+}
+
+//Week 6 Jquery: Generate & Wildcard Exp.6//
+//Code found on https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php//
+   function display_random_image2() 
+{
+     var theImages = [{
+        src: "../images/week6-exp7-haunt1.jpg",
+        width: "250",
+        height: "200",
+    }, {
+        src: "../images/week6-exp7-haunt2.jpg",
+        width: "250",
+        height: "200",  
+    }, {
+        src: "../images/week6-exp7-haunt3.jpg",
+        width: "250",
+        height: "200",
+    }, {
+        src: "../images/week6-exp7-haunt4.jpg",
+        width: "250",
+        height: "200",
+    },
+                      {
+        src: "../images/week6-exp7-haunt5.jpg",
+        width: "250",
+        height: "200",
+    },
+                     ];
+    
+    var preBuffer = [];
+    for (var i = 0, j = theImages.length; i < j; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = theImages[i].src;
+        preBuffer[i].width = theImages[i].width;
+        preBuffer[i].height = theImages[i].height;
+    }
+   
+// create random image number
+  function getRandomInt(min,max) 
+    {
+      //  return Math.floor(Math.random() * (max - min + 1)) + min;
+    
+imn = Math.floor(Math.random() * (max - min + 1)) + min;
+    return preBuffer[imn];
+    }  
+
+// 0 is first image,   preBuffer.length - 1) is  last image
+  
+var newImage = getRandomInt(0, preBuffer.length - 1);
+ 
+// remove the previous images
+var images = document.getElementsByTagName('img');
+var l = images.length;
+for (var p = 0; p < l; p++) {
+    images[0].parentNode.removeChild(images[0]);
+}
+// display the image   
+$(".ghosthunt").append(newImage);
+}
+
+//Week 6 Jquery: Interaction & Wildcard Exp.8//
+//Code found on https://codepen.io/mikewax/pen/PweBpQ//
+var canvas=document.getElementById("canvas2");
+var ctx=canvas.getContext("2d");
+var lastX;
+var lastY;
+var strokeColor="black";
+var strokeWidth=5;
+var mouseX;
+var mouseY;
+var canvasOffset=$("#canvas2").offset();
+var offsetX=canvasOffset.left;
+var offsetY=canvasOffset.top;
+var isMouseDown=false;
+
+
+function handleMouseDown(e){
+  mouseX=parseInt(e.clientX-offsetX);
+  mouseY=parseInt(e.clientY-offsetY);
+
+  // Put your mousedown stuff here
+  lastX=mouseX;
+  lastY=mouseY;
+  isMouseDown=true;
+}
+
+function handleMouseUp(e){
+  mouseX=parseInt(e.clientX-offsetX);
+  mouseY=parseInt(e.clientY-offsetY);
+
+  // Put your mouseup stuff here
+  isMouseDown=false;
+}
+
+function handleMouseOut(e){
+  mouseX=parseInt(e.clientX-offsetX);
+  mouseY=parseInt(e.clientY-offsetY);
+
+  // Put your mouseOut stuff here
+  isMouseDown=false;
+}
+
+function handleMouseMove(e){
+  mouseX=parseInt(e.clientX-offsetX);
+  mouseY=parseInt(e.clientY-offsetY);
+
+  // Put your mousemove stuff here
+  if(isMouseDown){
+    ctx.beginPath();
+    if(mode=="pen"){
+      ctx.globalCompositeOperation="source-over";
+      ctx.moveTo(lastX,lastY);
+      ctx.lineTo(mouseX,mouseY);
+      ctx.stroke();     
+    }else{
+      ctx.globalCompositeOperation="destination-out";
+      ctx.arc(lastX,lastY,8,0,Math.PI*2,false);
+      ctx.fill();
+    }
+    lastX=mouseX;
+    lastY=mouseY;
+  }
+}
+
+$("#canvas2").mousedown(function(e){handleMouseDown(e);});
+$("#canvas2").mousemove(function(e){handleMouseMove(e);});
+$("#canvas2").mouseup(function(e){handleMouseUp(e);});
+$("#canvas2").mouseout(function(e){handleMouseOut(e);});
+
+var mode="pen";
+$("#pen").click(function(){ mode="pen"; });
+$("#eraser").click(function(){ mode="eraser"; }); 
+
+//Week 6 Jquery: Interaction & Wildcard Exp.9//
