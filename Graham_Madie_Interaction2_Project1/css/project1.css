@@ -2891,6 +2891,440 @@ background-color: darkred}
     top: 180px;
     left: 170px;
 }
+/* Week 6 Styles: Draw & SVG Exp.1 */
+.divbackgroundsvg{
+    background-color: black;
+}
+.whitecircle{
+    position: absolute;
+    top: 100px;
+    left: 90px; 
+}
+
+.boo{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-style: italic;
+    letter-spacing: 5pt;
+    font-weight: 900;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    -webkit-text-stroke: .75px white;
+}
+.aghost{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    color: white;
+    font-style: italic;
+    letter-spacing: 1.5pt;
+    line-height: 14pt;
+    font-weight: 400;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    color: white;
+}
+/*Code found on: xhttps://codepen.io/whusterj/pres/bdYKop*/
+.floating {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 20px); }
+    to   { transform: translate(0, -0px); }    
+}
+/* Week 6 Styles: Draw & Canvas Exp.2 */
+.divbackgroundcanvas{
+    background-color: black; 
+}
+#myCanvas{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    z-index: -1000;
+}
+.thereis{
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 13pt;
+    letter-spacing: 2pt;
+    line-height: 22pt;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.energycolor{
+    color: yellow;
+    letter-spacing: 10pt;
+    font-style: italic;
+}
+.haunting{
+     font-family: 'Big Shoulders Text', cursive;
+    font-size: 10pt;
+    letter-spacing: 4pt;
+    line-height: 16pt;
+    color: white;
+    position: absolute;
+    top: 220px;
+    left: 140px;
+}
+
+/* Week 6 Styles: Generate & Loop Exp.4 */
+.divbackgroundloop2{
+background-color: lightgoldenrodyellow;
+}
+.holytrinity{
+    position: absolute;
+    top: 60px;
+    left: -30px;
+}
+.father{
+    font-family: 'Caudex', serif;
+    font-size: 16pt;
+    font-weight: 700;
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 38px;
+    left: 130px;
+    color: red;
+}
+.son{
+    font-family: 'Caudex', serif;
+    font-size: 16pt;
+    font-weight: 700;
+    letter-spacing: 1pt;
+    position: absolute;
+    top: 264px;
+    left: 34px;
+    color: red;
+}
+.holyspirit{
+    font-family: 'Caudex', serif;
+    font-size: 16pt;
+    font-weight: 700;
+    letter-spacing: 1pt;
+    line-height: 16pt;
+    position: absolute;
+    top: 268px;
+    left: 244px;
+    color: red;
+}
+.inneed{
+    font-family: 'Caudex', serif;
+    font-size: 10pt;
+    letter-spacing: .5pt;
+    line-height: 10pt; 
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+    font-style: italic;
+}
+/*Draw Animation Code found on https://www.hongkiat.com/blog/svg-animations/*/
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.shape {
+  -webkit-animation: 1.75s draw linear forwards infinite;
+  animation: 1.75s draw linear forwards infinite;
+}
+
+/* Week 6 Styles: Generate & Random Exp.5 */
+.divbackgroundrandom{
+    background-color: black;
+}
+.push{
+    font-family: 'Almendra SC', serif;
+    font-size: 20pt;
+    letter-spacing:3pt;
+    line-height: 34px;
+    color:  white;
+    background-color: black;
+    border: black;
+    padding: 2px;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    font-style: italic;
+    font-weight: 900;
+}
+.deathdate{
+    font-family: 'Almendra SC', serif;
+    font-size: 74pt;
+    line-height: 34px;
+    letter-spacing: 2px;
+    color: white;
+    background-color: transparent;
+    padding: 4px;
+    position: absolute;
+    top: 240px;
+    left: 82px;
+}
+.daysofhaunting{
+   font-family: 'Almendra SC', serif;
+    font-size: 20pt;
+    letter-spacing: 2pt; 
+    line-height: 18px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    border: transparent; 
+    top: 20px;
+    left: 180px;
+    text-align: right;
+}
+.hauntquestion{
+    font-family: 'Almendra SC', serif;
+    font-size: 34pt;
+    letter-spacing: 2pt; 
+    line-height: 18px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    border: transparent; 
+    top: 136px;
+    left: 278px;
+    text-align: right;
+}
+/* Week 6 Styles: Generate & Wildcard Exp.6 */
+.divbackgroundgwild{
+    background-color: transparent;
+}
+.whichghost{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 10pt;
+    letter-spacing: 1pt;
+    font-style: italic;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    background-color: white;
+    padding: 3px;
+}
+.ghostbutton{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 10pt;
+    letter-spacing: 1pt;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 58px;
+    left: 10px;
+    padding: 2px;
+    background-color: black;
+}
+
+/* Week 6 Styles: Interaction & Wildcard1 Exp.7 */
+.divbackgroundghosthunt{
+    background-color: rgb(59, 43, 35);
+}
+.ghosthunt{
+    font-family: 'Diplomata', display;
+    font-size: 18pt;
+    color: tan;
+     position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.morehaunts{
+    font-family: 'Alegreya', serif;
+    font-size: 13pt;
+    letter-spacing: .5pt;
+    color: antiquewhite;
+    position: absolute;
+    top: 308px;
+    left: 16px;
+    font-style: italic;
+}
+.reveal2button{
+     font-family: 'Alegreya', serif;
+    font-size: 14pt;
+    letter-spacing: .5pt;
+    color: rgb(59, 43, 35);
+    background-color: tan;
+    padding: 2px;
+    font-weight: 700;
+    position: absolute;
+    top: 240px;
+    left: 250px;
+    border: tan;
+}
+a.morehaunts2:hover{
+    text-decoration: line-through;
+}
+
+/* Week 6 Styles: Interaction & Wildcard1 Exp.8 */
+.canvas2{
+    border:1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 68px;
+    left: 70px;
+}
+.divbackgrounddraw{
+    background-color: black;
+}
+.drawentity{
+    font-family: 'Righteous', display;
+    color: white;
+    font-size: 22pt;
+    line-height: 20pt;
+    letter-spacing: 2pt;
+    position: absolute;
+    top: 10px;
+    left: 44px;
+}
+.pen{
+   font-family: 'Righteous', display;
+    color: black;
+    font-size: 14pt;
+    line-height: 20pt;
+    letter-spacing: 1pt;
+    background-color: white;
+    padding: 3px;
+    position: absolute;
+    top: 286px;
+    left: 48px; 
+}
+.eraser{
+   font-family: 'Righteous', display;
+    color: black;
+    font-size: 14pt;
+    line-height: 20pt;
+    letter-spacing: 1pt;
+    background-color: white;
+    padding: 3px;
+    position: absolute;
+    top: 286px;
+    left: 110px; 
+}
+/* Week 6 Styles: Interaction & Wildcard1 Exp.9 */
+.cemetary{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0px;
+    z-index: -1000; 
+}
+.burythedead{
+    font-family: 'Eczar', serif;
+    font-size: 17px;
+    letter-spacing: .5pt;
+    font-weight: 500;
+    z-index: 10000; 
+    font-style: italic;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    color: red;
+    background-color: transparent;
+    border: transparent;
+}
+.dead1{
+    position: absolute;
+    top: 175px;
+    left: 0px;
+    width: 175px;
+    height: 175px;
+}
+.dead2{
+    position: absolute;
+    top: 0px;
+    left: 175px;
+    width: 175px;
+    height: 175px;
+}
+.dead3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 175px;
+    height: 175px;
+}
+.dead4{
+    position: absolute;
+    top: 175px;
+    left: 175px;
+    width: 175px;
+    height: 175px;
+}
+.deadone{
+    font-family: 'Eczar', serif;
+    font-size: 50px;
+    letter-spacing: .5pt;
+    font-weight: 700;
+    z-index: 10000; 
+    position: absolute;
+    top: 90px;
+    left: 5px;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+    background-color: transparent;
+    border: none;
+}
+.deadtwo{
+    font-family: 'Eczar', serif;
+    font-size: 50px;
+    letter-spacing: .5pt;
+    font-weight: 700;
+    z-index: 10000; 
+    position: absolute;
+    top: 90px;
+    left: 196px;
+     color: transparent;
+    -webkit-text-stroke: 1px red;
+     background-color: transparent;
+    border: none;
+}
+.deadthree{
+    font-family: 'Eczar', serif;
+    font-size: 50px;
+    letter-spacing: .5pt;
+    font-weight: 700;
+    z-index: 10000; 
+    position: absolute;
+    top: 258px;
+    left: 5px;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+     background-color: transparent;
+    border: none;
+}
+.deadfour{
+    font-family: 'Eczar', serif;
+    font-size: 50px;
+    letter-spacing: .5pt;
+    font-weight: 700;
+    z-index: 10000; 
+    position: absolute;
+    top: 258px;
+    left: 196px;
+   color: transparent;
+    -webkit-text-stroke: 1px red;
+     background-color: transparent;
+    border: none;
+}
+
 /*ANIMATIONS*/
 /*week2- experiment 10: Space & Position animation*/
 @keyframes ani {
