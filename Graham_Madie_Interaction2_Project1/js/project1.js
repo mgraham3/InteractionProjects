@@ -640,4 +640,7 @@ var mode="pen";
 $("#pen").click(function(){ mode="pen"; });
 $("#eraser").click(function(){ mode="eraser"; }); 
 
-//Week 6 Jquery: Interaction & Wildcard Exp.9//
+//Week 6- Experiment 9 Code//
+$(".deadone").click(function(){
+    $(".dead3").fadeOut(1000);
+});
