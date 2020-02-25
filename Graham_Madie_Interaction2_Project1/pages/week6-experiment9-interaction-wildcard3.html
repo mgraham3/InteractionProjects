@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <!--Designed by Madeleine Graham-->
 <!--Interaction 2: Project 1: Week 6 Experiment 9: Interaction & Wildcard 3-->
-<!--Rational:-->
+<!--Rational: For the final wildcard, I wanted the user to be able to click on the red numbers and make the dead fade to an image of cemetary, but I spent two hours trying to figure out why my jquery wasn't working and couldn't fix it.-->
 <html>
 <head>
     <title>experiment 9: interaction wildcard 3</title>
     <link rel="stylesheet" href="../css/project1.css" type="text/css">  
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
     <link href="https://fonts.googleapis.com/css?family=Eczar:400,500,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -28,7 +27,20 @@
     </div>
 
 </div>
-<script type="text/javascript" src="../js/project1.js">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script>
+$(".deadone").click(function(){
+   $(".dead3, .deadone").fadeOut(1000);
+});
+$(".deadtwo").click(function(){
+   $(".dead2, .deadtwo").fadeOut(1000);
+});
+$(".deadthree").click(function(){
+   $(".dead1, .deadthree").fadeOut(1000);
+});
+$(".deadfour").click(function(){
+   $(".dead4, .deadfour, .burythedead").fadeOut(1000);
+});
 </script>
 
 </body>
