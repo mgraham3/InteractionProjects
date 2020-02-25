@@ -3226,6 +3226,7 @@ a.morehaunts2:hover{
     top: 0px;
     z-index: -1000; 
 }
+/*
 .burythedead{
     font-family: 'Eczar', serif;
     font-size: 17px;
@@ -3240,6 +3241,7 @@ a.morehaunts2:hover{
     background-color: transparent;
     border: transparent;
 }
+*/
 .dead1{
     position: absolute;
     top: 175px;
@@ -3255,7 +3257,9 @@ a.morehaunts2:hover{
     height: 175px;
 }
 .dead3{
-    position: absolute;
+/*    position: absolute;*/
+/*        z-index: 1; */
+
     top: 0px;
     left: 0px;
     width: 175px;
@@ -3270,17 +3274,9 @@ a.morehaunts2:hover{
 }
 .deadone{
     font-family: 'Eczar', serif;
-    font-size: 50px;
-    letter-spacing: .5pt;
-    font-weight: 700;
-    z-index: 10000; 
-    position: absolute;
-    top: 90px;
-    left: 5px;
-    color: transparent;
-    -webkit-text-stroke: 1px red;
-    background-color: transparent;
-    border: none;
+    font-size: 150px;
+    color: red;
+    
 }
 .deadtwo{
     font-family: 'Eczar', serif;
