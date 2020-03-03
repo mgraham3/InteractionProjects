@@ -1,0 +1,83 @@
+/* global style */
+
+* {
+    margin: 0;
+}
+
+
+/* index */
+
+#index #wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* project template */
+
+#home_btn {
+    display: inline-block;
+    margin: 25px
+}
+
+#home_btn a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color: red;
+}
+
+#home_btn a:hover {
+    border-bottom: 10px solid;
+}
+
+.template {
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border: 1px lightgrey solid;
+    overflow: hidden;
+    position: relative;
+
+    /* css grid for final page */
+
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+
+/* responsive styles */
+/* desktop + global layout */
+
+#wrapper {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+
+/* tablet only styles */
+@media (max-width: 1100px) {
+
+    #wrapper {
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+}
+
+/* mobile only styles */
+@media (max-width: 700px) {
+
+    #wrapper {
+        display: inline-grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(24, 1fr);
+    }
+
+}

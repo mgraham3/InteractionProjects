@@ -1573,12 +1573,12 @@ text-align: center;s
     top: 300px;
     left: 110px;
 }
-.circle1{
+.circleyoda1{
     position: absolute;
     top: 260px;
     left: 60px;
 }
-.circle2{
+.circleyoda2{
     position: absolute;
     top: 466px;
     left: 170px;
@@ -3226,7 +3226,6 @@ a.morehaunts2:hover{
     top: 0px;
     z-index: -1000; 
 }
-/*
 .burythedead{
     font-family: 'Eczar', serif;
     font-size: 17px;
@@ -3241,7 +3240,6 @@ a.morehaunts2:hover{
     background-color: transparent;
     border: transparent;
 }
-*/
 .dead1{
     position: absolute;
     top: 175px;
@@ -3257,9 +3255,7 @@ a.morehaunts2:hover{
     height: 175px;
 }
 .dead3{
-/*    position: absolute;*/
-/*        z-index: 1; */
-
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 175px;
@@ -3274,9 +3270,17 @@ a.morehaunts2:hover{
 }
 .deadone{
     font-family: 'Eczar', serif;
-    font-size: 150px;
-    color: red;
-    
+    font-size: 50px;
+    letter-spacing: .5pt;
+    font-weight: 700;
+    z-index: 10000; 
+    position: absolute;
+    top: 90px;
+    left: 5px;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+    background-color: transparent;
+    border: none;
 }
 .deadtwo{
     font-family: 'Eczar', serif;
