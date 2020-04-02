@@ -1,0 +1,389 @@
+/*Page Title*/
+/*Sketchbook Label Div*/
+.pagediv{
+    width: 100%;
+    height: 20px
+}
+.div1 { background-color: #99CC33;
+        width: 185px;
+        height: 800px;
+        position: relative;
+        top: 93px; 
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    display: none;
+}
+.homecolor{
+    color: black;
+}
+.gifsize{
+   height: 46.3px;
+    width: 303.3px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.home{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: black;
+    border: black solid 8px;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    top:-178px;
+    left: 1040px;
+   
+}
+.sketchcollect{
+    font-family: 'Ralway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5pt;
+    font-size: 24.75pt;
+    position: relative;
+    top: -57px;
+    left: 310px;
+    width: 800px;
+    
+}
+.scroll{
+    position: relative;
+    width: 140px;
+    top: -116px;
+    left: 780px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+    font-style: italic;
+    letter-spacing: .5pt;
+    font-weight: 600;
+    color: #99CC33;
+}
+/*Lime Green Background*/
+.background{
+    background-color: #99CC33;
+    position: absolute;
+    top: 121px;
+    left: 182px;
+    height: 800px;
+    width: 3920px;
+    z-index: -100000px;
+}
+/*Sketchbook Title*/
+.sketchtype{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    color: white;
+}
+.sketch1{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 500px; 
+}
+.sketchnumber{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: white;
+    border: white solid 8px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 50px;
+    left: 45px;
+}
+/*Images/Sketch Placement*/
+.sketchdiv1{
+    width: 1424px;
+    height: 756px;
+    position: relative;
+    top: -40px;
+    left: 14px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.horizontalimg1{
+    height: 756px;
+    width: 1008px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+/*Sketch 1 Details & Info*/
+.sketchinfodiv1{
+    background-color: white;
+    border: #99CC33 solid 8px;
+    height: 740px;
+    width: 400px;
+    position: relative;
+    top: -760px;
+    left: 1008px;
+    z-index: 10000;
+}
+.sketchtitle1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    letter-spacing: 2pt;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.sketchmedium1{
+     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16pt;
+    letter-spacing: 1pt;
+    font-style: italic;
+    position: relative;
+    top: 14px;
+    left: 38px;
+    
+}
+.sketchdate1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    font-style: italic;
+    position: relative;
+    top: 8px;
+    left: 38px;
+}
+.colorpalette1{
+    width: 324px;
+    height: 447.33px;
+    position: relative;
+    top: 54px;
+    left: 38px;
+}
+/*Sketch 2 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv2{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: -40px;
+    left: 58px;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+/*Sketch 3 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv3{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: -40px;
+    left: 278px;
+    grid-area: 1 / 3 / 2 / 4;
+}
+.verticalimg1{
+    height: 756.47px;
+    width: 567.35px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.sketchinfovertical{
+    background-color: white;
+    border: #99CC33 solid 8px;
+    height: 740px;
+    width: 400px;
+    position: relative;
+    top: -760px;
+    left: 566px;
+    z-index: 10000;
+}
+/*Grid*/
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+/*Page Title*/
+/*Sketchbook Label Div*/
+.pagediv{
+    width: 400px;
+}
+.div1 { background-color: #99CC33;
+        width: 400px;
+        height: 100px;
+        position: relative;
+        top: 50px;
+        left: -8px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    display: none;
+}
+.homecolor{
+    color: black;
+}
+.gifsize{
+   height: 37.04px;
+    width: 242.64px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.home{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: black;
+    border: black solid 4px;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    top: -74px;
+    left: 280px;
+   
+}
+.sketchcollect{
+    display: none;
+    font-family: 'Ralway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5pt;
+    font-size: 24.75pt;
+    position: relative;
+    top: -57px;
+    left: 310px;
+    width: 800px;
+    
+}
+.scroll{
+    position: relative;
+    width: 100px;
+    top: -10px;
+    left: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+    letter-spacing: .5pt;
+    font-weight: 600;
+    color: #99CC33;
+}
+/*Lime Green Background*/
+.background{
+    background-color: #99CC33;
+    position: absolute;
+    top: 178px;
+    left: 0px;
+    height: 1290px;
+    width: 400px;
+    z-index: -100000px;
+}
+/*Sketchbook Title*/
+.sketchtype{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    color: white;
+    width: 210px;
+}
+.sketch1{
+    transform: rotate(360deg);
+        position: relative;
+        top: -48px; 
+        left: 14px;
+}
+.sketchnumber{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: white;
+    border: white solid 6px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 14px;
+    left: 330px;
+    transform: rotate(90deg);
+}
+/*Images/Sketch Placement*/
+.sketchdiv1{
+    width: 1424px;
+    height: 756px;
+    position: relative;
+    top: -40px;
+    left: 17px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+.horizontalimg1{
+    height: 274.9px;
+    width: 366px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    z-index: 1000;
+}
+
+/*Sketch 1 Details & Info*/
+.sketchinfodiv1{
+    display: none;
+}
+
+/*Sketch 2 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv2{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: -440px;
+    left: 17px;
+    grid-area: 2 / 1 / 3 / 2;
+}
+/*Sketch 3 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv3{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: -816px;
+    left: 18px;
+    grid-area: 3 / 1 / 4 / 2; 
+}
+.verticalimg1{
+    height: 497.7px;
+    width: 373.3px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.sketchinfovertical{
+    display: none;
+}
+/*Grid*/
+.parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+}

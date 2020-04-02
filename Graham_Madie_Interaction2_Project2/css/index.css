@@ -1,0 +1,203 @@
+/*
+*{
+    border: red solid thin;
+}
+*/
+/*Title of Page Type*/
+.gifsize{
+   height: 46.3px;
+    width: 303.3px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.sketchcollect{
+    font-family: 'Ralway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5pt;
+    font-size: 24.75pt;
+    position: relative;
+    top: -57px;
+    left: 310px;
+    width: 800px;
+    
+}
+/*Select Type*/
+.selectdiv{
+    width: 100%;
+}
+.select{
+    position: relative;
+    top: -118px;
+    left: 1500px; 
+    width: 130px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16pt;
+    letter-spacing: .5pt;
+}
+/*Dates Type*/
+.dates{
+    position: relative;
+    top: -140px;
+    left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11pt;
+    text-align: center;
+}
+.greendate{
+    color: #99CC33;
+}
+.yellowdate{
+    color: #FFCC33;
+}
+.orangedate{
+    color: #FF9933;
+}
+.tealdate{
+    color:  #66CCCC;
+}
+.coraldate{
+    color: #FF6666;
+}
+
+/*Sketchbook # Type*/
+.sketchnumber{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: white;
+    border: white solid 8px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 40px;
+    left: 45px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    display: none;
+   
+}
+/*Sketchbook Type*/
+.sketchtype{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    color: white;
+}
+.sketch1{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+.sketch2{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+.sketch3{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+.sketch4{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+.sketch5{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+.sketch6{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+.sketch7{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px;  
+}
+.sketch8{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+.sketch9{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 520px; 
+}
+
+/*Grid 2*/
+.grid2 {
+display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.grid2div1 { grid-area: 1 / 1 / 2 / 2; }
+.grid2div2 { grid-area: 1 / 2 / 2 / 3; }
+.grid2div3 { grid-area: 1 / 3 / 2 / 4; }
+.grid2div4 { grid-area: 1 / 4 / 2 / 5; }
+.grid2div5 { grid-area: 1 / 5 / 2 / 6; }
+.grid2div6 { grid-area: 1 / 6 / 2 / 7; }
+.grid2div7 { grid-area: 1 / 7 / 2 / 8; }
+.grid2div8 { grid-area: 1 / 8 / 2 / 9; }
+.grid2div9 { grid-area: 1 / 9 / 2 / 10; }
+
+/*Grid 2*/
+.grid {
+position: relative; 
+top: -130px;
+display: grid;
+grid-template-columns: repeat(9, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; 
+        background-color: #99CC33;
+        width: 185px;
+        height: 800px;}
+.div2 { grid-area: 1 / 2 / 2 / 3; 
+        background-color: #FFCC33;
+        width: 185px;}
+.div3 { grid-area: 1 / 3 / 2 / 4;
+        background-color: #FF9933;
+        width: 185px;}
+.div4 { grid-area: 1 / 4 / 2 / 5; 
+        background-color: #66CCCC;
+        width: 185px;}
+.div5 { grid-area: 1 / 5 / 2 / 6; 
+        background-color: #FF6666;
+        width: 185px;}
+.div6 { grid-area: 1 / 6 / 2 / 7; 
+        background-color: #99CC33;
+        width: 185px;}
+.div7 { grid-area: 1 / 7 / 2 / 8; 
+        background-color: #FFCC33;
+        width: 185px;}
+.div8 { grid-area: 1 / 8 / 2 / 9; 
+        background-color: #FF9933;
+        width: 185px;}
+.div9 { grid-area: 1 / 9 / 2 / 10;
+        background-color: #66CCCC;
+        width: 185px;}
+
+/*Adaptive Mobile Code*/
+@media only screen and (max-width: 400px) {
+
+    }
