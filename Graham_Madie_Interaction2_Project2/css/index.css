@@ -217,7 +217,7 @@ grid-row-gap: 0px;
 top: 20px;
 }
 .pagediv{
-    width: 400px;
+    width: 400px;  
 }
 .div1 { grid-area: 1 / 1 / 2 / 2;
         background-color: #99CC33;
@@ -258,12 +258,7 @@ top: 20px;
         background-color: #66CCCC;
         width: 360px;
         height: 100px;}
-a{
-    text-decoration: none;
-}
-a:hover{
-    display: none;
-}
+
 .homecolor{
     color: black;
 }
@@ -338,54 +333,63 @@ a:hover{
         position: relative;
         top: -34px;
         left: 10px;
+        width: 210px;
 }
 .sketch2{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
         left: 10px; 
+        width: 210px;
 }
 .sketch3{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
         left: 10px;
+        width: 210px;
 }
 .sketch4{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
         left: 10px;
+        width: 210px;
 }
 .sketch5{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
         left: 10px;
+        width: 210px;
 }
 .sketch6{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
         left: 10px; 
+        width: 210px;
 }
 .sketch7{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
-        left: 10px;  
+        left: 10px; 
+        width: 210px;
 }
 .sketch8{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
         left: 10px; 
+        width: 210px;
 }
 .sketch9{
         transform: rotate(360deg);
         position: relative;
         top: -34px;
         left: 10px;
+        width: 210px;
 }
 .sketchnumber{
     font-family: 'Raleway', sans-serif;
@@ -402,4 +406,12 @@ a:hover{
     left: 290px;
     transform: rotate(90deg);
 }
+a{
+/*    text-decoration: none;*/
+}
+a:hover{
+/*    display: none;*/
+}
+
+
 }
