@@ -37,6 +37,9 @@
     font-size: 16pt;
     letter-spacing: .5pt;
 }
+.select2{
+    display: none;
+}
 /*Dates Type*/
 .dates{
     position: relative;
@@ -82,7 +85,7 @@ a{
     color: white;
 }
 a:hover{
-    display: none;
+    color: black;
    
 }
 /*Sketchbook Type*/
@@ -198,6 +201,205 @@ grid-row-gap: 0px;
         width: 185px;}
 
 /*Adaptive Mobile Code*/
+/*Mobile*/
 @media only screen and (max-width: 400px) {
-
+    
+/*Grid 2*/
+    .dates{
+        display: none;
     }
+.grid {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(9, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+top: 20px;
+}
+.pagediv{
+    width: 400px;
+}
+.div1 { grid-area: 1 / 1 / 2 / 2;
+        background-color: #99CC33;
+        width: 360px;
+        height: 100px;
+        position: relative;
+}
+.div2 { grid-area: 2 / 1 / 3 / 2; 
+        background-color: #FFCC33;
+        width: 360px;
+        height: 100px;
+        }
+.div3 { grid-area: 3 / 1 / 4 / 2; 
+        background-color: #FF9933;
+        width: 360px;
+        height: 100px;}
+.div4 { grid-area: 4 / 1 / 5 / 2; 
+        background-color: #66CCCC;
+         width: 360px;
+        height: 100px;}
+.div5 {  grid-area: 5 / 1 / 6 / 2;
+        background-color: #FF6666;
+         width: 360px;
+        height: 100px;}
+.div6 { grid-area: 6 / 1 / 7 / 2;
+        background-color: #99CC33;
+       width: 360px;
+        height: 100px;}
+.div7 { grid-area: 7 / 1 / 8 / 2;
+        background-color: #FFCC33;
+        width: 360px;
+        height: 100px;}
+.div8 { grid-area: 8 / 1 / 9 / 2;
+        background-color: #FF9933;
+         width: 360px;
+        height: 100px;}
+.div9 { grid-area: 9 / 1 / 10 / 2;
+        background-color: #66CCCC;
+        width: 360px;
+        height: 100px;}
+a{
+    text-decoration: none;
+}
+a:hover{
+    display: none;
+}
+.homecolor{
+    color: black;
+}
+.gifsize{
+   height: 37.04px;
+    width: 242.64px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.home{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: black;
+    border: black solid 3px;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    top: -72px;
+    left: 250px;
+   
+}
+.sketchcollect{
+    display: none;
+    font-family: 'Ralway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5pt;
+    font-size: 24.75pt;
+    position: relative;
+    top: -57px;
+    left: 310px;
+    width: 800px;
+    
+}
+.select{
+        display: none;
+    }
+.select2{
+    position: relative;
+    top: -118px;
+    left: 1500px; 
+    width: 130px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16pt;
+    letter-spacing: .5pt;
+}
+/*Lime Green Background*/
+.background{
+    background-color: #99CC33;
+    position: absolute;
+    top: 178px;
+    left: 0px;
+    height: 1048px;
+    width: 360px;
+    z-index: -100000px;
+}
+/*Sketchbook Title*/
+.sketchtype{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    color: white;
+}
+.sketch1{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px;
+}
+.sketch2{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px; 
+}
+.sketch3{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px;
+}
+.sketch4{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px;
+}
+.sketch5{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px;
+}
+.sketch6{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px; 
+}
+.sketch7{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px;  
+}
+.sketch8{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px; 
+}
+.sketch9{
+        transform: rotate(360deg);
+        position: relative;
+        top: -34px;
+        left: 10px;
+}
+.sketchnumber{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: white;
+    border: white solid 6px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 24px;
+    left: 290px;
+    transform: rotate(90deg);
+}
+}

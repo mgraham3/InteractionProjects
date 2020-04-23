@@ -12,12 +12,14 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 a:hover{
-    display: none;
+    color: #99CC33;
+    
 }
-.homecolor{
-    color: black;
+.numbercolor{
+    color: white;
 }
 .gifsize{
    height: 46.3px;
@@ -29,16 +31,17 @@ a:hover{
 .home{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 24pt;
+    font-size: 20pt;
     letter-spacing: 2pt;
     text-align: center;
     color: black;
-    border: black solid 8px;
-    width: 140px;
-    height: 40px;
+    border: black solid 4px;
+    width: 100px;
+    height: 30px;
     position: relative;
-    top:-178px;
-    left: 1040px;
+    top: -168px;
+    left: 1088px;
+
    
 }
 .sketchcollect{
@@ -71,7 +74,7 @@ a:hover{
     top: 121px;
     left: 182px;
     height: 800px;
-    width: 3920px;
+    width: 4020px;
     z-index: -100000px;
 }
 /*Sketchbook Title*/
@@ -140,7 +143,7 @@ a:hover{
     left: 20px;
 }
 .sketchmedium1{
-     font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 16pt;
     letter-spacing: 1pt;
@@ -173,8 +176,8 @@ a:hover{
     width: 1px;
     height: 756px;
     position: relative;
-    top: -40px;
-    left: 58px;
+    top: -42px;
+    left: 60px;
     grid-area: 1 / 2 / 2 / 3; 
 }
 /*Sketch 3 Details & Info*/
@@ -183,8 +186,8 @@ a:hover{
     width: 1px;
     height: 756px;
     position: relative;
-    top: -40px;
-    left: 278px;
+    top: -44px;
+    left: 236px;
     grid-area: 1 / 3 / 2 / 4;
 }
 .verticalimg1{
@@ -213,8 +216,55 @@ grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
+/*Audio*/
+audio{
+   position: relative;
+    top: -30px;
+    left: 38px;
+    width: 110px;
+    opacity: 0;
+}
+/*Message*/
+.message{
+    position: relative;
+    width: 140px;
+    top: px;
+    left: px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+    font-style: italic;
+    letter-spacing: .5pt;
+    font-weight: 600;
+    color: #99CC33;
+    opacity: 0;
+}
 
-/*MOBILE*/
+/*Arrow Hide*/
+.arrowhide{
+    display: none;
+}
+/*mobile info details*/x
+ .mobiledetail{
+    opacity: 0;
+    position: relative;
+    width: 100px;
+    top: 88px;
+    left:  40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    letter-spacing: .5pt;
+    font-weight: 400;
+    color: white;
+    z-index: 1000;
+    line-height: 16pt;
+    text-align: center;
+    }
+    .detailitalic{
+        font-style: italic;
+        font-weight: 600;
+    }
+
+/*Mobile*/
 @media only screen and (max-width: 400px) {
 /*Page Title*/
 /*Sketchbook Label Div*/
@@ -231,18 +281,18 @@ grid-row-gap: 0px;
 a{
     text-decoration: none;
 }
-a:hover{
-    display: none;
-}
 .homecolor{
     color: black;
+}
+a:hover{
+    color: #99CC33;
 }
 .gifsize{
    height: 37.04px;
     width: 242.64px;
     position: relative;
     top: 10px;
-    left: 10px;
+    left: 0px;
 }
 .home{
     font-family: 'Raleway', sans-serif;
@@ -255,8 +305,8 @@ a:hover{
     width: 80px;
     height: 22px;
     position: relative;
-    top: -73px;
-    left: 266px;
+    top: -72px;
+    left: 250px;
    
 }
 .sketchcollect{
@@ -275,7 +325,7 @@ a:hover{
     position: relative;
     width: 100px;
     top: -10px;
-    left: 14px;
+    left: 5px;
     font-family: 'Raleway', sans-serif;
     font-size: 12pt;
     font-style: italic;
@@ -289,9 +339,19 @@ a:hover{
     position: absolute;
     top: 178px;
     left: 0px;
-    height: 1290px;
+    height: 1028px;
     width: 360px;
     z-index: -100000px;
+}
+/*Audio*/
+audio{
+   position: relative;
+    top: -120px;
+    left: 12px;
+    width: 110px;
+    opacity: 1.0;
+    z-index: 1000;
+    opacity: 1.0;
 }
 /*Sketchbook Title*/
 .sketchtype{
@@ -320,15 +380,15 @@ a:hover{
     height: 40px;
     position: relative;
     top: 14px;
-    left: 294px;
-    transform: rotate(90deg);
+    left: 290px;
+    transform: rotate(0deg);
 }
 /*Images/Sketch Placement*/
 .sketchdiv1{
-    width: 360px;
+    width: 1424px;
     height: 756px;
     position: relative;
-    top: -40px;
+    top: 33px;
     left: 12px;
     grid-area: 1 / 1 / 2 / 2;
 }
@@ -336,7 +396,7 @@ a:hover{
     height: 252px;
     width: 336px;
     position: relative;
-    top: 20px;
+    top: 0px;
     left: 0px;
     z-index: 1000;
 }
@@ -352,8 +412,8 @@ a:hover{
     width: 1px;
     height: 756px;
     position: relative;
-    top: -380px;
-    left: 17px;
+    top: -458px;
+    left: 12px;
     grid-area: 2 / 1 / 3 / 2;
 }
 /*Sketch 3 Details & Info*/
@@ -362,13 +422,13 @@ a:hover{
     width: 1px;
     height: 756px;
     position: relative;
-    top: -816px;
-    left: 18px;
+    top: -948px;
+    left: 12px;
     grid-area: 3 / 1 / 4 / 2; 
 }
 .verticalimg1{
-    height: 497.7px;
-    width: 373.3px;
+    height: 446.88px;
+    width: 336px;
     position: relative;
     top: 0px;
     left: 0px;
@@ -385,5 +445,44 @@ grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-
+.arrowhide{
+    display: contents;
 }
+.arrowhide2{
+    display: none;
+}
+/*Message*/
+.message{
+    position: relative;
+    width: 140px;
+    top: -56px;
+    left: 134px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11pt;
+    font-style: italic;
+    letter-spacing: .75pt;
+    font-weight: 700;
+    color: white;
+    opacity: 1.0;
+}
+/*mobile info detail*/
+.mobiledetail{
+    position: relative;
+    width: 50px;
+    top: 5px;
+    left:  280px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    letter-spacing: .5pt;
+    font-weight: 300;
+    color: white;
+    z-index: 1000;
+    line-height: 11pt;
+    text-align: left;
+    }
+.detailitalic{
+        font-style: italic;
+        font-weight: 500;
+    }
+}
+

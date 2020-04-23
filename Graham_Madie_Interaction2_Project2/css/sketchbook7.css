@@ -1,0 +1,453 @@
+/*Page Title*/
+/*Sketchbook Label Div*/
+.pagediv{
+    width: 100%;
+    height: 20px
+}
+.div1 { background-color: #FFCC33;
+        width: 185px;
+        height: 800px;
+        position: relative;
+        top: 93px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #FFCC33;
+    
+}
+.numbercolor{
+    color: white;
+}
+.gifsize{
+   height: 46.3px;
+    width: 303.3px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.home{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: black;
+    border: black solid 4px;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top:-168px;
+    left: 1060px;
+   
+}
+.sketchcollect{
+    font-family: 'Ralway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5pt;
+    font-size: 24.75pt;
+    position: relative;
+    top: -57px;
+    left: 310px;
+    width: 800px;
+    
+}
+.scroll{
+    position: relative;
+    width: 140px;
+    top: -116px;
+    left: 780px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+    font-style: italic;
+    letter-spacing: .5pt;
+    font-weight: 600;
+    color: #FFCC33;
+}
+/*Lime Green Background*/
+.background{
+    background-color: #FFCC33;
+    position: absolute;
+    top: 121px;
+    left: 182px;
+    height: 800px;
+    width: 3110px;
+    z-index: -100000px;
+}
+/*Sketchbook Title*/
+.sketchtype{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    color: white;
+}
+.sketch1{
+        transform: rotate(-90deg);
+        position: relative;
+        top: 500px; 
+}
+.sketchnumber{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: white;
+    border: white solid 8px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 50px;
+    left: 45px;
+}
+/*Images/Sketch Placement*/
+.sketchdiv1{
+    width: 1424px;
+    height: 756px;
+    position: relative;
+    top: -40px;
+    left: 13px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+/*Sketch 1 Details & Info*/
+.sketchinfodiv1{
+    background-color: white;
+    border: #FFCC33 solid 8px;
+    height: 740px;
+    width: 400px;
+    position: relative;
+    top: -760px;
+    left: 566px;
+    z-index: 10000;
+}
+.sketchtitle1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    letter-spacing: 2pt;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.sketchmedium1{
+     font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16pt;
+    letter-spacing: 1pt;
+    font-style: italic;
+    position: relative;
+    top: 14px;
+    left: 38px;
+    
+}
+.sketchdate1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+    letter-spacing: 1pt;
+    font-style: italic;
+    position: relative;
+    top: 8px;
+    left: 38px;
+}
+.colorpalette1{
+    width: 324px;
+    height: 447.33px;
+    position: relative;
+    top: 54px;
+    left: 38px;
+}
+/*Sketch 2 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv2{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: -40px;
+    left: -380px;
+    grid-area: 1 / 2 / 2 / 3; 
+}
+/*Sketch 3 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv3{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: -1520px;
+    left: 1030px;
+    grid-area: 1 / 3 / 2 / 4;
+}
+.verticalimg1{
+    height: 756.47px;
+    width: 567.35px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+/*Grid*/
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+/*Audio*/
+audio{
+   position: relative;
+    top: -30px;
+    left: 38px;
+    width: 110px;
+    opacity: 0;
+}
+/*Message*/
+.message{
+    position: relative;
+    width: 140px;
+    top: px;
+    left: px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+    font-style: italic;
+    letter-spacing: .5pt;
+    font-weight: 600;
+    color: #99CC33;
+   opacity: 0;
+}
+/*Arrow Hide*/
+.arrowhide{
+    display: none;
+}
+/*mobile info details*/
+ .mobiledetail{
+    opacity: 0;
+    position: relative;
+    width: 100px;
+    top: 88px;
+    left:  40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14pt;
+    letter-spacing: .5pt;
+    font-weight: 400;
+    color: white;
+    z-index: 1000;
+    line-height: 16pt;
+    text-align: center;
+    }
+    .detailitalic{
+        font-style: italic;
+        font-weight: 600;
+    }
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+/*Page Title*/
+/*Sketchbook Label Div*/
+.pagediv{
+    width: 400px;
+}
+.div1 { background-color: #FFCC33;
+        width: 360px;
+        height: 100px;
+        position: relative;
+        top: 50px;
+        left: -8px;
+}
+a{
+    text-decoration: none;
+}
+.gifsize{
+   height: 37.04px;
+    width: 242.64px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.home{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: black;
+    border: black solid 3px;
+    width: 80px;
+    height: 22px;
+    position: relative;
+    top: -72px;
+    left: 250px;
+   
+}
+.sketchcollect{
+    display: none;
+    font-family: 'Ralway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1.5pt;
+    font-size: 24.75pt;
+    position: relative;
+    top: -57px;
+    left: 310px;
+    width: 800px;
+    
+}
+.scroll{
+    position: relative;
+    width: 100px;
+    top: -10px;
+    left: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+    letter-spacing: .5pt;
+    font-weight: 600;
+    color: #FFCC33;
+}
+/*Lime Green Background*/
+.background{
+    background-color: #FFCC33;
+    position: absolute;
+    top: 178px;
+    left: 0px;
+    height: 1410px;
+    width: 360px;
+    z-index: -100000px;
+}
+/*Audio*/
+audio{
+   position: relative;
+    top: -120px;
+    left: 12px;
+    width: 110px;
+    opacity: 1.0;
+    z-index: 1000;
+    opacity: 1.0;
+}
+/*Sketchbook Title*/
+.sketchtype{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    color: white;
+    width: 210px;
+}
+.sketch1{
+    transform: rotate(360deg);
+        position: relative;
+        top: -48px; 
+        left: 14px;
+}
+.sketchnumber{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    text-align: center;
+    color: white;
+    border: white solid 6px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 14px;
+    left: 290px;
+    transform: rotate(0deg);
+}
+/*Images/Sketch Placement*/
+.sketchdiv1{
+    width: 1424px;
+    height: 756px;
+    position: relative;
+    top: 30px;
+    left: 12px;
+    grid-area: 1 / 1 / 2 / 2;
+}
+/*Sketch 1 Details & Info*/
+.sketchinfodiv1{
+    display: none;
+}
+
+/*Sketch 2 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv2{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: -266px;
+    left: 12px;
+    grid-area: 2 / 1 / 3 / 2;
+}
+/*Sketch 3 Details & Info*/
+/*Images/Sketch Placement*/
+.sketchdiv3{
+    width: 1px;
+    height: 756px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    grid-area: 3 / 1 / 4 / 2; 
+}
+.verticalimg1{
+    height: 446.88px;
+    width: 336px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.sketchinfovertical{
+    display: none;
+}
+/*Grid*/
+.parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.arrowhide{
+    display: contents;
+}
+.arrowhide2{
+    display: none;
+}
+/*Message*/
+.message{
+    position: relative;
+    width: 140px;
+    top: -54px;
+    left: 134px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11pt;
+    font-style: italic;
+    letter-spacing: .75pt;
+    font-weight: 400;
+    color: white;
+    opacity: 1.0;
+    z-index: 1000;
+}
+/*mobile info detail*/
+.mobiledetail{
+    opacity: 1.0;
+    position: relative;
+    width: 80px;
+    top: 5px;
+    left:  280px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    letter-spacing: .5pt;
+    font-weight: 300;
+    color: white;
+    z-index: 1000;
+    line-height: 11pt;
+    text-align: left;
+    }
+.detailitalic{
+        font-style: italic;
+        font-weight: 500;
+    }
+}
