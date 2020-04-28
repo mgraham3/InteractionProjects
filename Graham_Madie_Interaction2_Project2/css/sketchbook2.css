@@ -433,10 +433,10 @@ grid-row-gap: 0px;
 /*mobile info detail*/
 .mobiledetail{
     opacity: 1.0;
-    position: relative;
-    width: 80px;
-    top: 5px;
-    left:  280px;
+    position: absolute;
+    width: 68px;
+    top: 128px;
+    left:  290px;
     font-family: 'Raleway', sans-serif;
     font-size: 10pt;
     letter-spacing: .5pt;

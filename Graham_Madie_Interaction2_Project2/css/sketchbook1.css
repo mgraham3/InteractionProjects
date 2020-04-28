@@ -467,10 +467,10 @@ grid-row-gap: 0px;
 }
 /*mobile info detail*/
 .mobiledetail{
-    position: relative;
+    position: absolute;
     width: 50px;
-    top: 5px;
-    left:  280px;
+    top: 128px;
+    left:  290px;
     font-family: 'Raleway', sans-serif;
     font-size: 10pt;
     letter-spacing: .5pt;
